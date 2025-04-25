@@ -58,9 +58,15 @@ class LightRAGDatabaseBuilder:
         self.output_dir = self.config.output_dir
         self.database_dir = self.config.database_dir
         
+        # Set up processed files directory
+        input_parent_dir = os.path.dirname(self.input_dir)
+        input_dir_name = os.path.basename(self.input_dir)
+        self.processed_dir = os.path.join(input_parent_dir, f"processed-{input_dir_name}")
+        
         # Create output directories
         os.makedirs(self.output_dir, exist_ok=True)
         os.makedirs(self.database_dir, exist_ok=True)
+        os.makedirs(self.processed_dir, exist_ok=True)
         
         # Set up logging
         log_dir = os.path.join(self.output_dir, "logs")
@@ -70,12 +76,16 @@ class LightRAGDatabaseBuilder:
         
         # Set API keys
         self.gemini_api_key = self.config.api.gemini_api_key or os.getenv("GEMINI_API_KEY")
-        if not self.gemini_api_key:
-            raise ValueError("Gemini API key is required for image analysis. Set GEMINI_API_KEY in .env")
+        if self.config.api.image_reader_model == "gemini" and not self.gemini_api_key:
+            raise ValueError("Gemini API key is required for Gemini image analysis. Set GEMINI_API_KEY in .env")
         
         self.openai_api_key = self.config.api.openai_api_key or os.getenv("OPENAI_API_KEY")
-        if not self.openai_api_key:
-            raise ValueError("OpenAI API key is required for embeddings. Set OPENAI_API_KEY in .env")
+        if not self.openai_api_key or (self.config.api.image_reader_model == "openai" and not self.openai_api_key):
+            raise ValueError("OpenAI API key is required for embeddings and OpenAI image analysis. Set OPENAI_API_KEY in .env")
+        
+        self.claude_api_key = self.config.api.claude_api_key or os.getenv("CLAUDE_API_KEY")
+        if self.config.api.image_reader_model == "claude" and not self.claude_api_key:
+            raise ValueError("Claude API key is required for Claude image analysis. Set CLAUDE_API_KEY in .env")
         
         # Set OpenAI API key in environment
         os.environ["OPENAI_API_KEY"] = self.openai_api_key
@@ -85,6 +95,10 @@ class LightRAGDatabaseBuilder:
             input_dir=self.input_dir,
             output_dir=self.output_dir,
             gemini_api_key=self.gemini_api_key,
+            openai_api_key=self.openai_api_key,
+            claude_api_key=self.claude_api_key,
+            image_reader_model=self.config.api.image_reader_model,
+            image_handling=self.config.api.image_handling,
             log_level=log_level,
             config={
                 "chunk_size": self.config.processing.chunk_size,
@@ -111,7 +125,10 @@ class LightRAGDatabaseBuilder:
             "processing_time_seconds": 0,
             "database_path": self.database_dir,
             "lightrag_docs_path": None,
-            "concurrency_limit": self.config.processing.concurrency_limit
+            "concurrency_limit": self.config.processing.concurrency_limit,
+            "processed_files_dir": self.processed_dir,
+            "processed_files": [],
+            "skipped_files": []
         }
 
     # Removed redundant initialize_lightrag method as it just calls the imported function
@@ -129,6 +146,18 @@ class LightRAGDatabaseBuilder:
         # Find all PDF files recursively
         pdf_files = find_pdf_files(self.input_dir, recursive=True, logger=self.logger)
         
+        # Check which files have already been processed
+        unprocessed_files = []
+        for pdf_path in pdf_files:
+            processed_file_path = os.path.join(self.processed_dir, pdf_path.name)
+            if os.path.exists(processed_file_path):
+                self.logger.info(f"Skipping already processed file: {pdf_path.name}")
+                self.stats["skipped_files"].append(pdf_path.name)
+            else:
+                unprocessed_files.append(pdf_path)
+        
+        self.logger.info(f"Found {len(unprocessed_files)} unprocessed files out of {len(pdf_files)} total files")
+        
         # Process PDF files concurrently with a limit on concurrency
         all_processed_documents = []
         all_lightrag_docs = []
@@ -136,7 +165,7 @@ class LightRAGDatabaseBuilder:
         start_time = datetime.now()
         
         # Create a progress tracker for processing PDFs
-        progress = create_progress_tracker(len(pdf_files), "Processing PDF files", self.logger)
+        progress = create_progress_tracker(len(unprocessed_files), "Processing PDF files", self.logger)
         
         # Process PDFs in batches to control concurrency
         concurrency_limit = self.config.processing.concurrency_limit
@@ -146,13 +175,14 @@ class LightRAGDatabaseBuilder:
         completed_count = 0
         
         # Process PDFs in batches
-        for i in range(0, len(pdf_files), concurrency_limit):
-            batch = pdf_files[i:i + concurrency_limit]
+        for i in range(0, len(unprocessed_files), concurrency_limit):
+            batch = unprocessed_files[i:i + concurrency_limit]
             
             # Create tasks for concurrent processing
             tasks = []
             for pdf_path in batch:
                 self.logger.debug(f"Creating task for processing: {pdf_path.name}")
+                # Convert Path object to string for processing
                 task = self.process_single_pdf(str(pdf_path))
                 tasks.append(task)
             
@@ -212,6 +242,36 @@ class LightRAGDatabaseBuilder:
             if document:
                 # Transform to LightRAG format
                 lightrag_docs = self.pdf_processor.transform_for_lightrag(document)
+                
+                # Move the PDF to the processed directory
+                pdf_filename = os.path.basename(pdf_path)
+                processed_file_path = os.path.join(self.processed_dir, pdf_filename)
+                
+                try:
+                    # Use shutil.move to relocate the file
+                    import shutil
+                    shutil.move(pdf_path, processed_file_path)
+                    
+                    # Track the processed file
+                    self.stats["processed_files"].append(pdf_filename)
+                    
+                    self.logger.info(f"Successfully moved processed file to: {processed_file_path}")
+                except PermissionError as e:
+                    self.logger.error(f"Permission error when moving file {pdf_path} to {processed_file_path}: {str(e)}")
+                    self.logger.warning(f"File was processed but could not be moved due to permission issues")
+                except FileNotFoundError as e:
+                    self.logger.error(f"File not found error when moving file {pdf_path} to {processed_file_path}: {str(e)}")
+                except OSError as e:
+                    self.logger.error(f"OS error when moving file {pdf_path} to {processed_file_path}: {str(e)}")
+                    # Try to copy instead if moving fails
+                    try:
+                        shutil.copy2(pdf_path, processed_file_path)
+                        self.logger.info(f"Successfully copied file to processed directory as fallback")
+                    except Exception as copy_error:
+                        self.logger.error(f"Fallback copy also failed: {str(copy_error)}")
+                except Exception as e:
+                    self.logger.error(f"Unexpected error moving file {pdf_path} to {processed_file_path}: {str(e)}")
+                    
                 return document, lightrag_docs
             
             return None
@@ -300,6 +360,9 @@ class LightRAGDatabaseBuilder:
         self.logger.info(f"Database directory: {self.database_dir}")
         self.logger.info(f"Total documents: {self.stats['total_documents']}")
         self.logger.info(f"Total chunks: {self.stats['total_chunks']}")
+        self.logger.info(f"Files processed: {len(self.stats['processed_files'])}")
+        self.logger.info(f"Files skipped (already processed): {len(self.stats['skipped_files'])}")
+        self.logger.info(f"Processed files directory: {self.stats['processed_files_dir']}")
         
         return self.stats
 
@@ -339,6 +402,26 @@ async def main():
         type=str,
         default=os.getenv("OPENAI_API_KEY"),
         help="OpenAI API key for embeddings and LLM"
+    )
+    parser.add_argument(
+        "--claude-api-key",
+        type=str,
+        default=os.getenv("CLAUDE_API_KEY"),
+        help="Anthropic API key for Claude (for image analysis)"
+    )
+    parser.add_argument(
+        "--image-reader-model",
+        type=str,
+        default="gemini",
+        choices=["gemini", "openai", "claude"],
+        help="Model to use for image analysis (gemini, openai, or claude)"
+    )
+    parser.add_argument(
+        "--image-handling",
+        type=str,
+        default="semi-structured",
+        choices=["plain-text", "semi-structured"],
+        help="Method to handle image processing: plain-text (simple text format) or semi-structured (detailed UI elements)"
     )
     parser.add_argument(
         "--log-level",
@@ -405,6 +488,12 @@ async def main():
         config.api.gemini_api_key = args.gemini_api_key
     if args.openai_api_key:
         config.api.openai_api_key = args.openai_api_key
+    if args.claude_api_key:
+        config.api.claude_api_key = args.claude_api_key
+    if args.image_reader_model:
+        config.api.image_reader_model = args.image_reader_model
+    if args.image_handling:
+        config.api.image_handling = args.image_handling
     if args.log_level:
         config.log_level = args.log_level
     if args.concurrency_limit:
@@ -434,9 +523,12 @@ async def main():
         print(f"Total chunks created: {stats['total_chunks']}")
         print(f"Total pages processed: {stats['total_pages']}")
         print(f"Total images processed: {stats['total_images']}")
+        print(f"Files processed this run: {len(stats['processed_files'])}")
+        print(f"Files skipped (already processed): {len(stats['skipped_files'])}")
         print(f"Processing time: {stats['processing_time_seconds']:.2f} seconds")
         print(f"Concurrency limit: {stats['concurrency_limit']}")
         print(f"\nDatabase directory: {stats['database_path']}")
+        print(f"Processed files directory: {stats['processed_files_dir']}")
         print(f"LightRAG documents: {stats['lightrag_docs_path']}")
         print(f"Configuration file: {args.config_file}")
         print("\nTo query the database, run:")

@@ -54,9 +54,12 @@ class APIConfig(BaseModel):
     """Configuration for API settings."""
     gemini_api_key: Optional[str] = Field(None, description="Google API key for Gemini")
     openai_api_key: Optional[str] = Field(None, description="OpenAI API key for embeddings and LLM")
+    claude_api_key: Optional[str] = Field(None, description="Anthropic API key for Claude")
     gemini_model: str = Field("gemini-2.0-flash", description="Gemini model to use")
     openai_embedding_model: str = Field("text-embedding-3-small", description="OpenAI embedding model to use")
     openai_llm_model: str = Field("gpt-4o-mini", description="OpenAI LLM model to use")
+    image_reader_model: str = Field("gemini", description="Model to use for image analysis (gemini, openai, claude)")
+    image_handling: str = Field("semi-structured", description="Method to handle image processing: plain-text or semi-structured")
 
 
 class AppConfig(BaseModel):
