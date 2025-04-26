@@ -1,0 +1,1195 @@
+2025-04-25 22:23:05,454 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\CRM MarketingTradePromotionsEN.pdf
+2025-04-25 22:23:05,500 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 22:23:05,513 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 22:23:05,521 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 22:23:05,530 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 22:23:05,538 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 22:23:05,545 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 22:23:05,557 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 22:23:05,569 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 22:23:05,583 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p9_img1.png
+2025-04-25 22:23:05,591 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p10_img1.png
+2025-04-25 22:23:05,597 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p11_img1.png
+2025-04-25 22:23:05,604 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p12_img1.png
+2025-04-25 22:23:05,608 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\CRM v4-ABCClassificationEN.pdf
+2025-04-25 22:23:05,626 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 22:23:05,633 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 22:23:05,640 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 22:23:05,646 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 22:23:05,654 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 22:23:05,698 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\CRM v4-ActivityMgtEL.pdf
+2025-04-25 22:23:05,716 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 22:23:05,728 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 22:23:05,734 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 22:23:05,737 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\CRM v4-ContactMgtEL.pdf
+2025-04-25 22:23:05,752 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 22:23:05,763 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 22:23:05,770 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 22:23:05,777 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\CRM v4-MarketingCampaignsEN.pdf
+2025-04-25 22:23:05,793 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 22:23:05,803 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 22:23:05,817 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 22:23:05,887 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 3.92 KB)
+2025-04-25 22:23:05,887 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,893 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 29.38 KB)
+2025-04-25 22:23:05,894 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,897 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.59 KB)
+2025-04-25 22:23:05,897 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,900 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.78 KB)
+2025-04-25 22:23:05,901 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,904 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 20.52 KB)
+2025-04-25 22:23:05,904 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,907 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.72 KB)
+2025-04-25 22:23:05,908 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,911 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.42 KB)
+2025-04-25 22:23:05,912 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,917 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 22:23:05,918 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,921 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.03 KB)
+2025-04-25 22:23:05,921 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,924 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 22:23:05,925 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,931 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.87 KB)
+2025-04-25 22:23:05,931 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,936 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 22:23:05,937 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,939 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.77 KB)
+2025-04-25 22:23:05,941 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,945 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 22:23:05,945 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,960 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.89 KB)
+2025-04-25 22:23:05,967 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,977 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 22:23:05,981 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:05,995 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.89 KB)
+2025-04-25 22:23:06,000 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,028 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 22:23:06,034 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,049 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.68 KB)
+2025-04-25 22:23:06,055 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,066 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 22:23:06,069 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,078 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.85 KB)
+2025-04-25 22:23:06,080 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,085 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.54 KB)
+2025-04-25 22:23:06,085 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,090 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.66 KB)
+2025-04-25 22:23:06,092 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,099 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.66 KB)
+2025-04-25 22:23:06,104 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,111 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.54 KB)
+2025-04-25 22:23:06,118 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,130 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.54 KB)
+2025-04-25 22:23:06,132 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,136 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.66 KB)
+2025-04-25 22:23:06,137 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,140 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.66 KB)
+2025-04-25 22:23:06,140 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,143 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.54 KB)
+2025-04-25 22:23:06,144 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,145 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.83 KB)
+2025-04-25 22:23:06,146 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,148 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.42 KB)
+2025-04-25 22:23:06,148 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,150 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.58 KB)
+2025-04-25 22:23:06,151 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,153 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.28 KB)
+2025-04-25 22:23:06,153 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,155 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.58 KB)
+2025-04-25 22:23:06,156 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,158 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.31 KB)
+2025-04-25 22:23:06,159 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,160 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.28 KB)
+2025-04-25 22:23:06,161 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,163 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.58 KB)
+2025-04-25 22:23:06,164 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,166 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.31 KB)
+2025-04-25 22:23:06,166 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,169 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.31 KB)
+2025-04-25 22:23:06,170 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,174 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.45 KB)
+2025-04-25 22:23:06,175 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,178 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.37 KB)
+2025-04-25 22:23:06,178 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:06,185 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.30 KB)
+2025-04-25 22:23:06,187 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:12,750 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.64 seconds
+2025-04-25 22:23:12,751 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.65 seconds
+2025-04-25 22:23:13,165 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.07 seconds
+2025-04-25 22:23:13,186 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.09 seconds
+2025-04-25 22:23:13,193 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.31 seconds
+2025-04-25 22:23:13,194 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.31 seconds
+2025-04-25 22:23:13,342 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.16 seconds
+2025-04-25 22:23:13,343 - src.chattingwithcontext7.pdf_processor - WARNING - Initial JSON parsing failed: Expecting value: line 37 column 69 (char 2168). Attempting repair...
+2025-04-25 22:23:13,343 - src.chattingwithcontext7.pdf_processor - WARNING - Specific JSON repair failed, trying general cleanup...
+2025-04-25 22:23:13,344 - src.chattingwithcontext7.pdf_processor - ERROR - JSON repair failed: Expecting value: line 15 column 3 (char 1126)
+2025-04-25 22:23:13,345 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.16 seconds
+2025-04-25 22:23:13,406 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.27 seconds
+2025-04-25 22:23:13,411 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save', 'Cancel', 'Searc...etails', 'Confirmation'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save', 'Cancel', 'Searc...etails', 'Confirmation'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:13,419 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): ```json
+{
+  "description": "The image depicts an ERP system interface, likely a module related to data management or transaction processing. The layout suggests a typical enterprise application screen with multiple UI components arranged to facilitate data entry, review, and navigation within a business process. The interface appears to be focused on managing records, possibly related to orders, inventory, or financial data, with sections dedicated to data display, input, and action controls.",
+...
+2025-04-25 22:23:13,421 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.29 seconds
+2025-04-25 22:23:13,451 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.44 seconds
+2025-04-25 22:23:13,452 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.45 seconds
+2025-04-25 22:23:13,931 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.79 seconds
+2025-04-25 22:23:13,932 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.79 seconds
+2025-04-25 22:23:13,933 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.04 seconds
+2025-04-25 22:23:13,964 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a screenshot of an ERP system interface, specifically a data management or reporting module. The interface contains a large, horizontally scrollable data grid or table, displaying multiple rows of data with columns labeled in Greek. The table appears to be used for managing customer or product information, with columns for identifiers, descriptions, attributes, and date ranges. The layout suggests a focus on data review, filtering, or editing within a structur...
+2025-04-25 22:23:13,964 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.07 seconds
+2025-04-25 22:23:14,015 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.86 seconds
+2025-04-25 22:23:14,015 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.86 seconds
+2025-04-25 22:23:14,173 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.01 seconds
+2025-04-25 22:23:14,173 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Add', 'Edit', 'Delete',... Category', 'Search...'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Add', 'Edit', 'Delete',... Category', 'Search...'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:14,175 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a detailed ERP system interface, likely a module related to inventory or order management. It shows a main data grid or table occupying the central area, displaying multiple rows of data with columns such as 'Item ID', 'Description', 'Quantity', 'Status', and possibly other attributes. Above or adjacent to the table, there are action buttons for operations like 'Add', 'Edit', 'Delete', and 'Refresh'. On the side or top, there are form fields or filters, incl...
+2025-04-25 22:23:14,175 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.01 seconds
+2025-04-25 22:23:14,184 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.03 seconds
+2025-04-25 22:23:14,185 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.03 seconds
+2025-04-25 22:23:14,331 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.41 seconds
+2025-04-25 22:23:14,332 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.41 seconds
+2025-04-25 22:23:14,338 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.17 seconds
+2025-04-25 22:23:14,339 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.17 seconds
+2025-04-25 22:23:14,359 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.18 seconds
+2025-04-25 22:23:14,360 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.18 seconds
+2025-04-25 22:23:14,430 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.51 seconds
+2025-04-25 22:23:14,432 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.51 seconds
+2025-04-25 22:23:14,474 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.30 seconds
+2025-04-25 22:23:14,475 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.30 seconds
+2025-04-25 22:23:14,527 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.38 seconds
+2025-04-25 22:23:14,528 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.38 seconds
+2025-04-25 22:23:14,631 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.57 seconds
+2025-04-25 22:23:14,631 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.58 seconds
+2025-04-25 22:23:14,722 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.82 seconds
+2025-04-25 22:23:14,745 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts an ERP system interface focused on managing entities related to personnel and company relationships. It appears to be a module or screen for managing personal data, relationships, and associated company entities. The layout includes a central section with a flowchart or diagram illustrating relationships between different entities, along with a set of data entry fields or options at the bottom. The interface emphasizes the connection between a person, their ...
+2025-04-25 22:23:14,747 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.84 seconds
+2025-04-25 22:23:14,757 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 22:23:14,799 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.83 KB)
+2025-04-25 22:23:14,800 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:14,804 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.78 KB)
+2025-04-25 22:23:14,805 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:14,809 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 53.36 KB)
+2025-04-25 22:23:14,810 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:14,814 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 170.71 KB)
+2025-04-25 22:23:14,814 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:14,825 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.90 KB)
+2025-04-25 22:23:14,826 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:14,831 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 80.63 KB)
+2025-04-25 22:23:14,832 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:14,919 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.78 seconds
+2025-04-25 22:23:14,920 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.78 seconds
+2025-04-25 22:23:14,937 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.99 seconds
+2025-04-25 22:23:14,938 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Order ID', 'Date', 'Sup...lete', 'Save', 'Cancel'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Order ID', 'Date', 'Sup...lete', 'Save', 'Cancel'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:14,940 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): ```json
+{
+  "description": "The screenshot depicts an ERP system interface focused on managing or viewing transactional data, likely related to procurement, inventory, or order processing. The layout includes a main data table occupying the central area, with various control elements such as buttons and filters positioned around it. The interface appears designed for users to review, filter, and possibly edit records within a specific module, with navigation elements at the top or side for switc...
+2025-04-25 22:23:14,941 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.00 seconds
+2025-04-25 22:23:15,035 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 9.05 seconds
+2025-04-25 22:23:15,035 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.05 seconds
+2025-04-25 22:23:15,064 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.89 seconds
+2025-04-25 22:23:15,065 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.89 seconds
+2025-04-25 22:23:15,144 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 9.23 seconds
+2025-04-25 22:23:15,145 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.23 seconds
+2025-04-25 22:23:15,276 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 9.24 seconds
+2025-04-25 22:23:15,276 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.24 seconds
+2025-04-25 22:23:15,323 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 9.25 seconds
+2025-04-25 22:23:15,348 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Dashboard', 'Procuremen...ails', 'Edit', 'Delete'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Dashboard', 'Procuremen...ails', 'Edit', 'Delete'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:15,350 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): ```json
+{
+  "description": "The image depicts a detailed ERP system interface focused on managing or viewing procurement or inventory data. The layout suggests a typical enterprise resource planning dashboard with multiple UI components arranged to facilitate data entry, review, and navigation within a procurement or supply chain module. The interface includes data tables, form fields for filtering or input, action buttons for operations like save or submit, and navigation elements for moving be...
+2025-04-25 22:23:15,353 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.28 seconds
+2025-04-25 22:23:15,443 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 9.30 seconds
+2025-04-25 22:23:15,444 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.30 seconds
+2025-04-25 22:23:15,633 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 9.72 seconds
+2025-04-25 22:23:15,634 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Order ID', 'Date', 'Sup...by Status', 'Search...'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Order ID', 'Date', 'Sup...by Status', 'Search...'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:15,635 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): ```json
+{
+  "description": "The screenshot depicts an ERP system interface focused on managing or viewing transactional data, likely related to procurement, sales, or inventory. The layout suggests a typical ERP data management screen with a main data table, action buttons, filtering options, and navigation elements. The interface appears designed for users to review, edit, or process entries within a specific module, such as purchase orders or sales records.",
+  "detected_elements": [
+    "butt...
+2025-04-25 22:23:15,636 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.73 seconds
+2025-04-25 22:23:16,569 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 10.62 seconds
+2025-04-25 22:23:16,570 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 10.62 seconds
+2025-04-25 22:23:16,717 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 10.56 seconds
+2025-04-25 22:23:16,718 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 10.56 seconds
+2025-04-25 22:23:16,800 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 10.90 seconds
+2025-04-25 22:23:16,800 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 10.90 seconds
+2025-04-25 22:23:16,808 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 22:23:16,815 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 22:23:16,868 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.59 KB)
+2025-04-25 22:23:16,869 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:16,872 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 4.16 KB)
+2025-04-25 22:23:16,872 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:16,874 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 18.37 KB)
+2025-04-25 22:23:16,875 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:17,365 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 11.39 seconds
+2025-04-25 22:23:17,365 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Dashboard', 'Sales', 'P...uantity', 'Description'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Dashboard', 'Sales', 'P...uantity', 'Description'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:17,367 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts an ERP system interface focused on managing or viewing transactional data, likely related to sales, procurement, or inventory. The layout includes a main data table occupying the central area, with associated action buttons and filters positioned around it. There are navigation elements such as menus or breadcrumbs at the top, facilitating movement across different modules. The interface appears to include form fields for filtering or data entry, and icons i...
+2025-04-25 22:23:17,368 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 11.40 seconds
+2025-04-25 22:23:17,597 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 11.68 seconds
+2025-04-25 22:23:17,598 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 11.69 seconds
+2025-04-25 22:23:17,641 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 11.52 seconds
+2025-04-25 22:23:17,643 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 11.53 seconds
+2025-04-25 22:23:17,651 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 11.75 seconds
+2025-04-25 22:23:17,652 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 11.75 seconds
+2025-04-25 22:23:17,659 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 22:23:17,704 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 31.91 KB)
+2025-04-25 22:23:17,705 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:17,708 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 38.73 KB)
+2025-04-25 22:23:17,708 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:17,712 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 116.56 KB)
+2025-04-25 22:23:17,713 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:19,019 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 13.08 seconds
+2025-04-25 22:23:19,020 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 13.08 seconds
+2025-04-25 22:23:19,162 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 13.08 seconds
+2025-04-25 22:23:19,164 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 13.08 seconds
+2025-04-25 22:23:19,971 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 13.81 seconds
+2025-04-25 22:23:19,972 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 13.81 seconds
+2025-04-25 22:23:20,318 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 14.39 seconds
+2025-04-25 22:23:20,318 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 14.39 seconds
+2025-04-25 22:23:21,880 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 15.72 seconds
+2025-04-25 22:23:21,881 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 15.72 seconds
+2025-04-25 22:23:22,060 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 15.97 seconds
+2025-04-25 22:23:22,061 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Order Management', 'Ord...ation', 'Add New Order'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Order Management', 'Ord...ation', 'Add New Order'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:22,062 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): ```json
+{
+  "description": "The image depicts a detailed ERP system interface, likely a module related to inventory, procurement, or order management. The layout features multiple UI components arranged to facilitate data entry, review, and process navigation. The central area appears to be a data grid or table displaying records such as orders, items, or transactions. Surrounding this are form fields, buttons, and panels that enable users to input data, filter records, or execute actions. Navig...
+2025-04-25 22:23:22,062 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 15.98 seconds
+2025-04-25 22:23:22,076 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.25 seconds
+2025-04-25 22:23:22,077 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.25 seconds
+2025-04-25 22:23:22,507 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.63 seconds
+2025-04-25 22:23:22,508 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save', 'Cancel', 'Submi...Edit', 'Delete', 'View'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save', 'Cancel', 'Submi...Edit', 'Delete', 'View'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:22,509 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a screenshot of an ERP system interface, likely a data management or transaction module. The layout includes a main data table occupying the central area, with various UI controls such as buttons, form fields, and navigation elements. The interface appears to facilitate data entry, review, and possibly editing or approval workflows. There are visual indicators like icons and arrows suggesting relationships or actions, and a modal or popup window is present, in...
+2025-04-25 22:23:22,509 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.64 seconds
+2025-04-25 22:23:22,618 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.75 seconds
+2025-04-25 22:23:22,619 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.75 seconds
+2025-04-25 22:23:23,005 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.19 seconds
+2025-04-25 22:23:23,006 - src.chattingwithcontext7.pdf_processor - WARNING - Initial JSON parsing failed: Expecting value: line 99 column 111 (char 5957). Attempting repair...
+2025-04-25 22:23:23,006 - src.chattingwithcontext7.pdf_processor - WARNING - Specific JSON repair failed, trying general cleanup...
+2025-04-25 22:23:23,007 - src.chattingwithcontext7.pdf_processor - ERROR - JSON repair failed: Expecting value: line 18 column 3 (char 823)
+2025-04-25 22:23:23,007 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.19 seconds
+2025-04-25 22:23:23,380 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.58 seconds
+2025-04-25 22:23:23,381 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.58 seconds
+2025-04-25 22:23:24,006 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.30 seconds
+2025-04-25 22:23:24,011 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The screenshot depicts an ERP system interface focused on sales management, specifically the process of scheduling or managing sales meetings. The UI features a multi-level navigation menu on the left, a central workspace with dropdowns and options, and a highlighted action button. The overall layout suggests a typical ERP module for sales or customer relationship management, with a focus on planning and tracking sales activities.",
+  "detected_elements": [
+    "menu",
+    "d...
+2025-04-25 22:23:24,012 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.31 seconds
+2025-04-25 22:23:24,299 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.42 seconds
+2025-04-25 22:23:24,306 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The screenshot depicts an ERP system interface focused on managing customer data and related parameters. The layout is divided into multiple sections: a top form for general customer attributes, a middle table for model data, and a right-side panel for field information. The interface appears to be part of a customer management or configuration module, allowing users to input, view, and modify customer-related information, including creation and modification dates, customer c...
+2025-04-25 22:23:24,307 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.43 seconds
+2025-04-25 22:23:24,315 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 22:23:24,318 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.62 KB)
+2025-04-25 22:23:24,318 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:24,395 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 9.59 seconds
+2025-04-25 22:23:24,395 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.59 seconds
+2025-04-25 22:23:24,542 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.83 seconds
+2025-04-25 22:23:24,550 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The screenshot depicts an ERP system interface focused on task or work order management. The interface is organized into multiple sections, with a primary focus on a task list and a dropdown menu for selecting different actions or workflows related to sales or sales meetings. The layout suggests a typical ERP module for managing ongoing tasks, with options to filter or select specific activities, and a detailed dropdown menu for executing specific commands or workflows.",
+  "...
+2025-04-25 22:23:24,551 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.84 seconds
+2025-04-25 22:23:24,556 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 9.72 seconds
+2025-04-25 22:23:24,567 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a screenshot of an ERP system interface, likely a module related to customer or contact management, scheduling, or case tracking. The layout includes various input fields, action buttons, a dropdown menu, and a context menu, all arranged in a structured manner. The interface appears to be used for managing or updating records, with sections for general information, related items, and scheduling or planning. The presence of a dropdown menu with options for cr...
+2025-04-25 22:23:24,567 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.74 seconds
+2025-04-25 22:23:25,281 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 10.47 seconds
+2025-04-25 22:23:25,297 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 10.49 seconds
+2025-04-25 22:23:25,304 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 22:23:25,378 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.78 KB)
+2025-04-25 22:23:25,378 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:25,381 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.83 KB)
+2025-04-25 22:23:25,382 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:25,385 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 20.52 KB)
+2025-04-25 22:23:25,386 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:25,389 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 23.48 KB)
+2025-04-25 22:23:25,390 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:25,393 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 6.23 KB)
+2025-04-25 22:23:25,394 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:25,400 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 144.32 KB)
+2025-04-25 22:23:25,401 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:25,406 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.55 KB)
+2025-04-25 22:23:25,407 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:26,158 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 20.01 seconds
+2025-04-25 22:23:26,159 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 20.01 seconds
+2025-04-25 22:23:26,167 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 22:23:26,170 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.59 KB)
+2025-04-25 22:23:26,172 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:32,728 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.32 seconds
+2025-04-25 22:23:32,729 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.32 seconds
+2025-04-25 22:23:32,960 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.57 seconds
+2025-04-25 22:23:32,960 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.57 seconds
+2025-04-25 22:23:33,886 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 16.17 seconds
+2025-04-25 22:23:33,892 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The screenshot depicts an ERP system interface focused on scheduling and managing sales meetings or appointments. The main window displays a weekly calendar view, with time slots from 7:00 to 23:00, showing scheduled activities for different companies. There is a context menu open over a toolbar button, offering options related to sales meetings, such as creating, following up, and viewing details of sales activities. The interface includes various UI elements for navigation,...
+2025-04-25 22:23:33,892 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 16.18 seconds
+2025-04-25 22:23:33,899 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 22:23:33,934 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 54.69 KB)
+2025-04-25 22:23:33,935 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:33,937 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 22.78 KB)
+2025-04-25 22:23:33,938 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:33,941 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.64 KB)
+2025-04-25 22:23:33,942 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:33,945 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.93 KB)
+2025-04-25 22:23:33,945 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:33,949 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.04 KB)
+2025-04-25 22:23:33,949 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:33,952 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.99 KB)
+2025-04-25 22:23:33,952 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:34,245 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.07 seconds
+2025-04-25 22:23:34,246 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.07 seconds
+2025-04-25 22:23:34,256 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 22:23:34,356 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 4.86 KB)
+2025-04-25 22:23:34,356 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:34,359 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 2.02 KB)
+2025-04-25 22:23:34,360 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:34,363 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 7.29 KB)
+2025-04-25 22:23:34,363 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:34,366 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 7.76 KB)
+2025-04-25 22:23:34,367 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:34,370 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 49.23 KB)
+2025-04-25 22:23:34,371 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:34,374 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.59 KB)
+2025-04-25 22:23:34,375 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:34,898 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 10.58 seconds
+2025-04-25 22:23:34,899 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 10.58 seconds
+2025-04-25 22:23:34,904 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p9_img1.png
+2025-04-25 22:23:35,015 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 7.89 KB)
+2025-04-25 22:23:35,016 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:35,019 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 94.73 KB)
+2025-04-25 22:23:35,020 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:35,027 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 9.65 seconds
+2025-04-25 22:23:35,028 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.65 seconds
+2025-04-25 22:23:35,049 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 9.66 seconds
+2025-04-25 22:23:35,049 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.66 seconds
+2025-04-25 22:23:36,639 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 11.26 seconds
+2025-04-25 22:23:36,640 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 11.26 seconds
+2025-04-25 22:23:38,945 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.00 seconds
+2025-04-25 22:23:38,946 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.00 seconds
+2025-04-25 22:23:39,604 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.24 seconds
+2025-04-25 22:23:39,604 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save', 'Cancel', 'Submi...me > Inventory > Items'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save', 'Cancel', 'Submi...me > Inventory > Items'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:39,605 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a detailed ERP system interface, likely a module related to inventory or order management. The layout includes a main data table, several action buttons, form fields for data entry, and navigation elements. The interface appears to facilitate viewing, editing, and managing records within the ERP system, with visual cues such as arrows indicating relationships or workflow steps between different sections or data points.",
+  "detected_elements": ["button", "tabl...
+2025-04-25 22:23:39,606 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.24 seconds
+2025-04-25 22:23:39,933 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.57 seconds
+2025-04-25 22:23:39,934 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['CATEGORY: CRM Marketing...- View code', 'Persons'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['CATEGORY: CRM Marketing...- View code', 'Persons'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:39,935 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a screenshot from an ERP system, specifically within a CRM or marketing module focused on managing B2B contacts. The interface shows a tabular data grid listing various campaign segments, each with associated details such as segment type, view code, and related entities. The layout suggests a typical ERP data management screen, with a focus on viewing and possibly editing campaign segment information. The context appears to be a configuration or reporting vi...
+2025-04-25 22:23:39,936 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.57 seconds
+2025-04-25 22:23:40,506 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.55 seconds
+2025-04-25 22:23:40,507 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Dashboard', 'Inventory ...s: 150', 'Page 1 of 10'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Dashboard', 'Inventory ...s: 150', 'Page 1 of 10'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:40,508 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a detailed ERP system interface focused on managing and reviewing financial or inventory data. The layout appears to be a data-centric screen, likely part of a module such as procurement, inventory management, or financial reporting. It features a primary data table occupying the central area, with various UI controls for filtering, navigation, and data manipulation. The interface includes action buttons, dropdown filters, and possibly a modal window for det...
+2025-04-25 22:23:40,508 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.56 seconds
+2025-04-25 22:23:40,907 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.89 seconds
+2025-04-25 22:23:40,907 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.89 seconds
+2025-04-25 22:23:41,862 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.93 seconds
+2025-04-25 22:23:41,868 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a detailed ERP system interface, likely a data entry or project management module, focused on creating or editing a project or task. The layout is divided into multiple sections with labeled headers, input fields, dropdowns, and action buttons, indicating a form-based workflow for managing project details, scheduling, and related information.",
+  "detected_elements": ["button", "table", "form", "panel", "icon", "checkbox", "dropdown", "text label"],
+  "ui_elem...
+2025-04-25 22:23:41,868 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.93 seconds
+2025-04-25 22:23:42,315 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.94 seconds
+2025-04-25 22:23:42,326 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Campaign', 'Save', 'New...otes', 'Microsoft Sans'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Campaign', 'Save', 'New...otes', 'Microsoft Sans'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:42,328 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a detailed ERP system interface focused on managing a marketing campaign, specifically an email newsletter campaign titled 'Inventory Items promotion (Newsletter)'. The interface is organized into multiple sections, each containing various UI elements for data entry, configuration, and information display. The layout suggests a form-based workflow for setting up and monitoring campaign details, with a top menu bar for common actions, and a structured, tabula...
+2025-04-25 22:23:42,329 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.96 seconds
+2025-04-25 22:23:44,652 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 10.71 seconds
+2025-04-25 22:23:44,653 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 10.71 seconds
+2025-04-25 22:23:44,756 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 10.81 seconds
+2025-04-25 22:23:44,757 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 10.81 seconds
+2025-04-25 22:23:44,842 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 9.82 seconds
+2025-04-25 22:23:44,849 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a comprehensive ERP dashboard interface, likely used for data analysis and reporting. It contains multiple sections including charts, tables, and navigation elements. The top area features a dropdown menu for date range selection, indicating the data scope. Below, there are two main visual data representations: a bar and line chart on the left analyzing customer data across categories, and a bar chart on the right showing geographical distribution of data poin...
+2025-04-25 22:23:44,849 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.83 seconds
+2025-04-25 22:23:44,858 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p10_img1.png
+2025-04-25 22:23:44,867 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p11_img1.png
+2025-04-25 22:23:44,977 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 8.77 KB)
+2025-04-25 22:23:44,977 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:44,980 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 105.11 KB)
+2025-04-25 22:23:44,980 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:44,986 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 10.63 seconds
+2025-04-25 22:23:44,987 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 10.63 seconds
+2025-04-25 22:23:45,274 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 10.91 seconds
+2025-04-25 22:23:45,275 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Inventory Management', ...by Status', 'Search...'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Inventory Management', ...by Status', 'Search...'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:45,278 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a typical ERP system interface focused on managing or viewing inventory or order data. The layout includes a main data table, action buttons, navigation elements, and possibly a modal window or detail panel. The interface appears designed for users to review, filter, and perform actions on data records related to business operations such as inventory management, order processing, or procurement.",
+  "detected_elements": ["button", "table", "form", "panel", "...
+2025-04-25 22:23:45,278 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 10.92 seconds
+2025-04-25 22:23:50,778 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.80 seconds
+2025-04-25 22:23:50,784 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a detailed ERP system dashboard focused on data analysis and visualization. The upper section contains a tabular data grid with multiple rows representing different periods, each with associated metrics such as customer counts, measurement values, and deviations. Below the table, there are options for selecting analysis periods. The lower section features a complex bubble chart with multiple data points, representing different categories (A, B, C) across vario...
+2025-04-25 22:23:50,785 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.80 seconds
+2025-04-25 22:23:51,123 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.14 seconds
+2025-04-25 22:23:51,124 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.15 seconds
+2025-04-25 22:23:51,130 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p12_img1.png
+2025-04-25 22:23:51,236 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 8.46 KB)
+2025-04-25 22:23:51,236 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:51,239 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 74.98 KB)
+2025-04-25 22:23:51,240 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:51,466 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 26.06 seconds
+2025-04-25 22:23:51,472 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a detailed ERP system data entry or management screen, likely used for managing company or supplier information. It contains multiple sections for inputting and viewing data related to an entity, such as a broadcasting company, with various fields for identification, contact details, and classification. The interface appears to be part of a comprehensive enterprise resource planning module focused on entity registration or profile management within a busines...
+2025-04-25 22:23:51,473 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 26.07 seconds
+2025-04-25 22:23:51,668 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 17.29 seconds
+2025-04-25 22:23:51,668 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Dashboard', 'Procuremen...l', 'Approve', 'Reject'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Dashboard', 'Procuremen...l', 'Approve', 'Reject'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:51,671 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): ```json
+{
+  "description": "This image depicts a typical ERP system interface focused on managing or reviewing purchase order details. The layout suggests a multi-pane view with navigation, data presentation, and action controls. The interface appears to be part of a procurement or inventory module, showing detailed information about purchase orders, supplier data, and related workflows within the ERP system.",
+  "detected_elements": [
+    "button",
+    "table",
+    "form",
+    "panel",
+    "arr...
+2025-04-25 22:23:51,672 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 17.30 seconds
+2025-04-25 22:23:51,679 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 22:23:51,762 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 3.89 KB)
+2025-04-25 22:23:51,763 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:51,765 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 24.99 KB)
+2025-04-25 22:23:51,766 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:51,769 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 5.18 KB)
+2025-04-25 22:23:51,769 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:51,772 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 18.54 KB)
+2025-04-25 22:23:51,773 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:51,779 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 3.34 KB)
+2025-04-25 22:23:51,780 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:54,622 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 20.68 seconds
+2025-04-25 22:23:54,628 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a typical ERP system interface focused on task or transaction management, likely related to business collaboration or workflow processes. The interface appears to be a form used for creating or editing a task or record, with multiple input fields and associated controls. The form includes sections for subject, description, contact, address, and status, indicating a structured data entry process within the ERP system. The layout suggests a user is entering or...
+2025-04-25 22:23:54,629 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 20.69 seconds
+2025-04-25 22:23:54,637 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 22:23:54,661 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 18.95 KB)
+2025-04-25 22:23:54,663 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:54,665 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.04 KB)
+2025-04-25 22:23:54,666 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:54,672 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.03 KB)
+2025-04-25 22:23:54,672 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:54,674 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 21.01 KB)
+2025-04-25 22:23:54,675 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:54,677 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.62 KB)
+2025-04-25 22:23:54,678 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:54,680 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 29.55 KB)
+2025-04-25 22:23:54,681 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:23:57,459 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.70 seconds
+2025-04-25 22:23:57,460 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Item ID', 'Description'...pproval', 'Fulfillment'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Item ID', 'Description'...pproval', 'Fulfillment'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:57,461 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a detailed ERP system interface, likely a module related to inventory or procurement management. It features a main data grid or table displaying multiple rows of records, with associated action buttons and form fields for data entry or editing. The layout includes navigation elements such as menus or tabs at the top or side, and possibly a breadcrumb trail indicating the current workflow step. The interface appears to facilitate the review, editing, and pro...
+2025-04-25 22:23:57,462 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.70 seconds
+2025-04-25 22:23:57,481 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.70 seconds
+2025-04-25 22:23:57,482 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.70 seconds
+2025-04-25 22:23:58,859 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.62 seconds
+2025-04-25 22:23:58,866 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a comprehensive ERP dashboard interface, likely used for data analysis and reporting. It contains multiple visualizations, filters, and navigation controls, indicating a focus on sales or business performance metrics over a specified period. The layout includes dropdown filters at the top, graphical data representations (pie chart, bar chart, line chart), and possibly navigation or summary sections.",
+  "detected_elements": [
+    "dropdown menus",
+    "buttons...
+2025-04-25 22:23:58,867 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.63 seconds
+2025-04-25 22:23:59,055 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 4.38 seconds
+2025-04-25 22:23:59,065 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a screenshot of an ERP system interface, specifically a form or data entry screen related to campaign management or project planning. The interface appears to be part of a module where users can input or select various parameters for a campaign or project, such as the campaign name, project details, and related options. The layout suggests a typical data entry form with dropdown menus and text fields, likely used for creating or editing campaign records within...
+2025-04-25 22:23:59,066 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 4.39 seconds
+2025-04-25 22:23:59,359 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.59 seconds
+2025-04-25 22:23:59,359 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['General data', 'Classif...anksy', 'Edwards Betty'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['General data', 'Classif...anksy', 'Edwards Betty'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:23:59,361 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a typical ERP system interface focused on managing and configuring inventory-related communication settings and personnel data. The layout includes a configuration section at the top, labeled 'General data,' with options for setting email notifications related to inventory items, and a list section below displaying personnel data, likely for assigning or managing contacts related to inventory notifications.",
+  "detected_elements": ["button", "table", "form"...
+2025-04-25 22:23:59,361 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.59 seconds
+2025-04-25 22:24:00,107 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.44 seconds
+2025-04-25 22:24:00,108 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.44 seconds
+2025-04-25 22:24:00,434 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.75 seconds
+2025-04-25 22:24:00,440 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "This screenshot depicts an ERP system interface focused on scheduling or resource planning, likely related to employee or task management. The interface is divided into multiple sections: a participant list on the left, a timeline or calendar view on the right, and a toolbar at the top. The timeline spans from 08:00 to 18:00 on Monday, June 10, 2013, with colored bars indicating scheduled activities or shifts for selected participants. The participant list shows names with hi...
+2025-04-25 22:24:00,442 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.76 seconds
+2025-04-25 22:24:00,475 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.80 seconds
+2025-04-25 22:24:00,476 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save', 'Cancel', 'Searc...t', 'Delete', 'Confirm'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save', 'Cancel', 'Searc...t', 'Delete', 'Confirm'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:24:00,478 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a typical ERP system interface focused on managing or viewing transactional data, possibly related to procurement, inventory, or order processing. The layout includes a main data table occupying the central area, with various control elements such as buttons and filters positioned around it. There is a sidebar or panel on the left or right side that contains navigation options or additional filters. The interface appears to support data entry or editing, as ...
+2025-04-25 22:24:00,479 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.80 seconds
+2025-04-25 22:24:01,739 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 9.97 seconds
+2025-04-25 22:24:01,739 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.97 seconds
+2025-04-25 22:24:02,290 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 11.05 seconds
+2025-04-25 22:24:02,290 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save', 'Cancel', 'Edit'...Orders > Manage Orders'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save', 'Cancel', 'Edit'...Orders > Manage Orders'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:24:02,292 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a screenshot of an ERP system interface, likely a module related to order management or inventory control. The layout includes a main data table occupying the central area, with various UI controls such as buttons, form fields, and navigation elements. The interface appears to facilitate data entry, filtering, and viewing of records, with a focus on managing transactions or stock details. The presence of icons and arrows suggests relationships or workflows bet...
+2025-04-25 22:24:02,293 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 11.06 seconds
+2025-04-25 22:24:02,299 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p13_img1.png
+2025-04-25 22:24:02,374 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 6.58 KB)
+2025-04-25 22:24:02,375 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:02,377 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 111.71 KB)
+2025-04-25 22:24:02,378 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:02,382 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.64 KB)
+2025-04-25 22:24:02,383 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:02,386 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 2.30 KB)
+2025-04-25 22:24:02,387 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:03,550 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 11.78 seconds
+2025-04-25 22:24:03,550 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Campaign attributes', '.....', 'Accept', 'Cancel'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Campaign attributes', '.....', 'Accept', 'Cancel'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:24:03,553 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a modal dialog box within an ERP system, specifically related to setting or editing campaign attributes. The dialog appears to be part of a marketing or sales module, allowing users to define parameters for a promotional campaign, such as its name, target list, medium/channel, objective, questionnaire, timeline, and response list. The interface is designed for data entry and configuration, with options to accept or cancel the changes.",
+  "detected_elements"...
+2025-04-25 22:24:03,554 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 11.79 seconds
+2025-04-25 22:24:03,561 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 22:24:03,628 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 2.89 KB)
+2025-04-25 22:24:03,629 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:03,632 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 10.04 KB)
+2025-04-25 22:24:03,632 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:03,635 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.99 KB)
+2025-04-25 22:24:03,637 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:03,641 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 5.45 KB)
+2025-04-25 22:24:03,641 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:03,645 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 2.41 KB)
+2025-04-25 22:24:03,645 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:03,648 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 5.87 KB)
+2025-04-25 22:24:03,649 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:04,402 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 9.74 seconds
+2025-04-25 22:24:04,409 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a screenshot of an ERP system interface, specifically a scheduling or planning module. It appears to be used for assigning tasks or resources, with date and time inputs, location details, and a dropdown for selecting personnel. The interface includes various input fields, dropdowns, and icons, indicating a form-based workflow for scheduling activities within an enterprise environment.",
+  "detected_elements": ["button", "form", "dropdown", "date/time picker", ...
+2025-04-25 22:24:04,410 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 9.75 seconds
+2025-04-25 22:24:04,918 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 10.25 seconds
+2025-04-25 22:24:04,919 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 10.25 seconds
+2025-04-25 22:24:04,924 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 22:24:04,964 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 14.24 KB)
+2025-04-25 22:24:04,965 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:04,967 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 12.90 KB)
+2025-04-25 22:24:04,967 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:04,970 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 16.41 KB)
+2025-04-25 22:24:04,970 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:04,975 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 37.14 KB)
+2025-04-25 22:24:04,976 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:04,981 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 11.22 KB)
+2025-04-25 22:24:04,981 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:04,984 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 27.77 KB)
+2025-04-25 22:24:04,985 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:07,016 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 4.63 seconds
+2025-04-25 22:24:07,017 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['A', 'A', 'A', 'B', 'B', 'B', 'C', 'C', 'C'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['A', 'A', 'A', 'B', 'B', 'B', 'C', 'C', 'C'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:24:07,021 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): ```json
+{
+  "description": "The image depicts a hierarchical flowchart or process diagram within an ERP system, illustrating a sequence of steps or decision points labeled with alphabetic identifiers (A, B, C). The diagram appears to focus on process flow or data movement, with directional arrows indicating the sequence or relationships between different steps. The layout is linear and vertical, with nodes connected by arrows, suggesting a step-by-step workflow or decision tree typical in ERP pr...
+2025-04-25 22:24:07,022 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 4.64 seconds
+2025-04-25 22:24:09,079 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.70 seconds
+2025-04-25 22:24:09,080 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.70 seconds
+2025-04-25 22:24:09,121 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 4.16 seconds
+2025-04-25 22:24:09,128 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a screenshot of an ERP system interface, specifically a note or comment section within the system. The interface appears to be part of a broader ERP module, possibly related to communication, documentation, or task management. The visible area includes a toolbar with various editing and formatting options, a dropdown for font selection, and a text editing area containing a note written in Greek, indicating that the user is adding or editing a note related to a...
+2025-04-25 22:24:09,128 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 4.16 seconds
+2025-04-25 22:24:09,641 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.99 seconds
+2025-04-25 22:24:09,641 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.00 seconds
+2025-04-25 22:24:09,895 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.25 seconds
+2025-04-25 22:24:09,896 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.26 seconds
+2025-04-25 22:24:10,406 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.03 seconds
+2025-04-25 22:24:10,414 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image displays a comprehensive ERP dashboard containing multiple data visualizations, primarily bar charts, representing various business metrics across different regions, divisions, and product categories. The interface appears to be part of an enterprise analytics module, providing insights into enterprise resource planning data such as sales, divisions, and product families. The layout includes several horizontally aligned bar charts with legends, labels, and data labe...
+2025-04-25 22:24:10,415 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.04 seconds
+2025-04-25 22:24:10,438 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.06 seconds
+2025-04-25 22:24:10,439 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Purchase Order Manageme...der Details', 'Remarks'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Purchase Order Manageme...der Details', 'Remarks'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:24:10,440 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a detailed ERP system interface, likely a procurement or purchase order management module. The layout includes multiple sections: a navigation or menu bar at the top, a main data table in the center, and various form fields and action buttons. There are visual indicators such as arrows pointing from a selection or input field to related data or options, suggesting workflow steps or data relationships. The interface appears designed for managing purchase orders...
+2025-04-25 22:24:10,441 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.07 seconds
+2025-04-25 22:24:10,936 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.30 seconds
+2025-04-25 22:24:10,937 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.30 seconds
+2025-04-25 22:24:11,355 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.71 seconds
+2025-04-25 22:24:11,355 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.71 seconds
+2025-04-25 22:24:11,637 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.00 seconds
+2025-04-25 22:24:11,644 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a section of an ERP system interface focused on managing campaign items. It appears to be a data management screen where users can view, add, or modify items related to a marketing or sales campaign. The interface includes a data grid (table) listing campaign items with details such as serial number, item code, description, quantity, and unit of measure (MU). The presence of action icons suggests options for editing or deleting entries. The interface is like...
+2025-04-25 22:24:11,644 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.01 seconds
+2025-04-25 22:24:12,403 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.43 seconds
+2025-04-25 22:24:12,410 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a screenshot of an ERP system interface, specifically a data entry or record management screen related to historical records. The interface is organized into sections with a table displaying historical entries at the top and a form for detailed data input or editing at the bottom. The layout suggests a typical ERP module for managing transactional or master data, possibly related to inventory, procurement, or project tracking, with date fields, user informat...
+2025-04-25 22:24:12,410 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.43 seconds
+2025-04-25 22:24:12,885 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.91 seconds
+2025-04-25 22:24:12,885 - src.chattingwithcontext7.pdf_processor - WARNING - Initial JSON parsing failed: Invalid \escape: line 49 column 170 (char 3379). Attempting repair...
+2025-04-25 22:24:12,885 - src.chattingwithcontext7.pdf_processor - WARNING - Specific JSON repair failed, trying general cleanup...
+2025-04-25 22:24:12,886 - src.chattingwithcontext7.pdf_processor - ERROR - JSON repair failed: Invalid \escape: line 49 column 170 (char 3379)
+2025-04-25 22:24:12,887 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.92 seconds
+2025-04-25 22:24:13,473 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.49 seconds
+2025-04-25 22:24:13,473 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.49 seconds
+2025-04-25 22:24:14,655 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 11.03 seconds
+2025-04-25 22:24:14,655 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 11.03 seconds
+2025-04-25 22:24:14,664 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 22:24:14,728 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 4.76 KB)
+2025-04-25 22:24:14,728 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:14,732 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 35.27 KB)
+2025-04-25 22:24:14,732 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:14,735 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.65 KB)
+2025-04-25 22:24:14,736 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:14,738 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 3.54 KB)
+2025-04-25 22:24:14,738 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:14,742 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.62 KB)
+2025-04-25 22:24:14,743 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:15,551 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 10.58 seconds
+2025-04-25 22:24:15,557 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a screenshot of an ERP system interface, specifically a data management or configuration module related to CRM (Customer Relationship Management) import/export tools. The interface displays a tabular list of CRM-related items, with options for managing, editing, or deleting entries. The top section features a highlighted header row, and the table contains multiple rows with data entries, each representing different CRM configurations or tools. The right side...
+2025-04-25 22:24:15,558 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 10.59 seconds
+2025-04-25 22:24:20,764 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.03 seconds
+2025-04-25 22:24:20,764 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save & close', 'New', '...osing date', 'Reminder'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save & close', 'New', '...osing date', 'Reminder'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:24:20,765 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a typical ERP system interface focused on managing inventory items and scheduling tasks. The layout includes a data entry section for general data, a scheduling panel, and a notes section. The interface appears to facilitate the creation or editing of an inventory promotion or newsletter, with fields for classification, categorization, priority, status, assigned personnel, due date, start and end dates, and reminders. The notes section allows for detailed co...
+2025-04-25 22:24:20,766 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.03 seconds
+2025-04-25 22:24:20,890 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 55.50 seconds
+2025-04-25 22:24:20,890 - src.chattingwithcontext7.pdf_processor - WARNING - Initial JSON parsing failed: Unterminated string starting at: line 25 column 18 (char 1692). Attempting repair...
+2025-04-25 22:24:20,891 - src.chattingwithcontext7.pdf_processor - WARNING - Specific JSON repair failed, trying general cleanup...
+2025-04-25 22:24:20,891 - src.chattingwithcontext7.pdf_processor - ERROR - JSON repair failed: Unterminated string starting at: line 25 column 18 (char 1692)
+2025-04-25 22:24:20,892 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 55.50 seconds
+2025-04-25 22:24:20,898 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 22:24:20,946 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 15.05 KB)
+2025-04-25 22:24:20,949 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:20,955 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 2.63 KB)
+2025-04-25 22:24:20,962 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:20,965 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 13.63 KB)
+2025-04-25 22:24:20,966 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:20,969 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 18.72 KB)
+2025-04-25 22:24:20,973 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:20,978 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 2.08 KB)
+2025-04-25 22:24:20,979 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:20,982 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 55.61 KB)
+2025-04-25 22:24:20,982 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:21,090 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 16.10 seconds
+2025-04-25 22:24:21,091 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 16.11 seconds
+2025-04-25 22:24:21,094 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 22:24:21,140 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 66.85 KB)
+2025-04-25 22:24:21,141 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:21,143 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 77.89 KB)
+2025-04-25 22:24:21,144 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:21,146 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 59.90 KB)
+2025-04-25 22:24:21,147 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:21,162 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.42 seconds
+2025-04-25 22:24:21,162 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['More', 'New action', 'N...campaign', 'Scheduling'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['More', 'New action', 'N...campaign', 'Scheduling'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:24:21,164 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "This image depicts a dropdown menu within an ERP system interface, specifically under a 'More' menu item. The menu options include 'New action', 'New subcampaign', and 'Scheduling'. The highlighted option 'New subcampaign' suggests that the user is in the process of initiating or managing marketing or sales campaigns within the ERP. The interface appears to be part of a broader workflow related to campaign management, with options for creating new actions or scheduling activi...
+2025-04-25 22:24:21,165 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.43 seconds
+2025-04-25 22:24:21,878 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.15 seconds
+2025-04-25 22:24:21,879 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Purchase Orders', 'Orde...ails', 'Confirm Delete'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Purchase Orders', 'Orde...ails', 'Confirm Delete'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:24:21,881 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts an ERP system interface focused on managing purchase orders or procurement processes. The layout includes a main data table listing multiple entries, likely representing individual purchase orders or items. There are various UI elements such as buttons for actions like 'Save', 'Cancel', or 'Edit', and form fields for inputting or filtering data. The interface also contains navigation elements, possibly a menu or breadcrumb trail, to switch between different ...
+2025-04-25 22:24:21,881 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.15 seconds
+2025-04-25 22:24:22,022 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.29 seconds
+2025-04-25 22:24:22,023 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.29 seconds
+2025-04-25 22:24:23,215 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.47 seconds
+2025-04-25 22:24:23,215 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.47 seconds
+2025-04-25 22:24:23,224 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p9_img1.png
+2025-04-25 22:24:23,250 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 3.25 KB)
+2025-04-25 22:24:23,251 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:23,253 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 31.45 KB)
+2025-04-25 22:24:23,253 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:27,348 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.20 seconds
+2025-04-25 22:24:27,348 - src.chattingwithcontext7.pdf_processor - WARNING - Initial JSON parsing failed: Expecting ',' delimiter: line 33 column 29 (char 1829). Attempting repair...
+2025-04-25 22:24:27,348 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: invalid literal for int() with base 10: '1829)'
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 789, in _analyze_image_with_openai
+    result_dict = json.loads(json_str)
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 33 column 29 (char 1829)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 799, in _analyze_image_with_openai
+    err_pos = int(err_parts[1])
+              ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1829)'
+2025-04-25 22:24:27,351 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a screenshot of an ERP system interface, specifically a data management or reporting module. The interface appears to be a table view listing multiple records related to meetings or appointments, with date, description, and location details. The layout suggests a focus on scheduling or tracking internal meetings, with options for filtering or selecting date ranges and personnel. The top section contains dropdowns and input fields for filtering data, while th...
+2025-04-25 22:24:27,352 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.20 seconds
+2025-04-25 22:24:27,694 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.72 seconds
+2025-04-25 22:24:27,699 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The screenshot depicts an ERP system interface, likely within a module related to personnel or employee management. The interface appears to be a data entry or review screen, focusing on categorizing or managing employee parameters, specifically related to physical fitness or health categories. The layout includes a data table, navigation elements, and action buttons, suggesting a workflow for data management or classification within the HR or personnel module.",
+  "detected_...
+2025-04-25 22:24:27,702 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.73 seconds
+2025-04-25 22:24:28,335 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.37 seconds
+2025-04-25 22:24:28,336 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Dashboard', 'Orders', '...t', 'Delete', 'Add New'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Dashboard', 'Orders', '...t', 'Delete', 'Add New'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:24:28,337 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a detailed ERP system interface focused on a data management or transaction processing module. The layout includes multiple UI components such as data tables, form fields, action buttons, navigation elements, and informational panels, arranged to facilitate user interaction with enterprise data. The interface appears to be part of a workflow for managing records, possibly related to order processing, inventory, or financial entries, with visual cues indicati...
+2025-04-25 22:24:28,338 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.38 seconds
+2025-04-25 22:24:28,451 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.20 seconds
+2025-04-25 22:24:28,452 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Execution parameters', ...el', 'Modify', 'Accept'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Execution parameters', ...el', 'Modify', 'Accept'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:24:28,454 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a typical ERP system interface focused on execution parameters, likely part of a workflow or process configuration module. It appears to be a dialog or form window titled 'Execution parameters,' used for setting up or modifying a specific command or task within the ERP system. The interface includes options for command selection, text templates, parameters, task assignment, and re-execution settings, indicating a process configuration or automation setup withi...
+2025-04-25 22:24:28,454 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.20 seconds
+2025-04-25 22:24:28,467 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.52 seconds
+2025-04-25 22:24:28,481 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.53 seconds
+2025-04-25 22:24:29,539 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.39 seconds
+2025-04-25 22:24:29,551 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The screenshot depicts an ERP system interface focused on scheduling or calendar management. It features multiple sections including a task classification area, a menu bar with dropdown options, date and time selection fields, and a detailed scheduling grid. The interface appears to facilitate planning, resource allocation, or appointment management within an enterprise environment, with options for configuring parameters, viewing schedules, and managing participants.",
+  "de...
+2025-04-25 22:24:29,552 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.41 seconds
+2025-04-25 22:24:29,721 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.58 seconds
+2025-04-25 22:24:29,722 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.58 seconds
+2025-04-25 22:24:29,727 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p9_img1.png
+2025-04-25 22:24:29,879 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 7.25 KB)
+2025-04-25 22:24:29,880 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:29,883 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 144.92 KB)
+2025-04-25 22:24:29,883 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:29,886 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 15.25 KB)
+2025-04-25 22:24:29,886 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:29,890 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 4.73 KB)
+2025-04-25 22:24:29,890 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:29,893 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 119.23 KB)
+2025-04-25 22:24:29,894 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:29,899 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.92 seconds
+2025-04-25 22:24:29,910 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.93 seconds
+2025-04-25 22:24:29,984 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.73 seconds
+2025-04-25 22:24:29,985 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.74 seconds
+2025-04-25 22:24:29,992 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p10_img1.png
+2025-04-25 22:24:30,078 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 4.18 KB)
+2025-04-25 22:24:30,079 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:30,083 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 38.04 KB)
+2025-04-25 22:24:30,083 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:30,086 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 3.82 KB)
+2025-04-25 22:24:30,087 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:30,093 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 63.66 KB)
+2025-04-25 22:24:30,093 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:31,474 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 10.50 seconds
+2025-04-25 22:24:31,475 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 10.50 seconds
+2025-04-25 22:24:31,859 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 10.89 seconds
+2025-04-25 22:24:31,868 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): ```json
+{
+  "description": "The screenshot depicts an ERP system interface focused on data entry or configuration, likely related to inventory, product management, or order processing. The layout includes form fields for date, key selection, and location, along with a modal window for selecting product categories or items. The interface appears to facilitate filtering or selecting specific data sets for further processing or reporting within the ERP system.",
+  "detected_elements": [
+    "button...
+2025-04-25 22:24:31,868 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 10.90 seconds
+2025-04-25 22:24:31,876 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 22:24:31,903 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 18.97 KB)
+2025-04-25 22:24:31,904 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:31,908 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.68 KB)
+2025-04-25 22:24:31,908 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:31,911 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 31.88 KB)
+2025-04-25 22:24:31,912 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:31,915 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 7.48 KB)
+2025-04-25 22:24:31,916 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:31,920 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 157.26 KB)
+2025-04-25 22:24:31,922 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 22:24:35,370 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.29 seconds
+2025-04-25 22:24:35,371 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Customer Name', 'Order ...re you want to delete?'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Customer Name', 'Order ...re you want to delete?'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:24:35,372 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a detailed ERP system interface, likely a dashboard or module screen, focused on data management or transaction processing. The layout includes multiple UI components such as data tables, form fields, action buttons, navigation elements, and visual indicators, arranged to facilitate user interaction with enterprise data. The interface appears to support workflows related to data entry, review, and approval, with clear pathways for navigation and data manipul...
+2025-04-25 22:24:35,373 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.29 seconds
+2025-04-25 22:24:35,461 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.57 seconds
+2025-04-25 22:24:35,461 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.57 seconds
+2025-04-25 22:24:35,614 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.53 seconds
+2025-04-25 22:24:35,615 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.53 seconds
+2025-04-25 22:24:35,795 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.91 seconds
+2025-04-25 22:24:35,800 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image depicts a section of an ERP system interface, specifically a navigation or menu panel on the left side, with a dropdown or submenu expanded on the right. The interface appears to be part of a business management or enterprise resource planning software, focusing on activities related to energy, scheduling, and activity logs. The layout suggests a typical ERP dashboard with hierarchical menus for accessing various modules and functions, likely used for managing busin...
+2025-04-25 22:24:35,801 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.92 seconds
+2025-04-25 22:24:36,210 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.33 seconds
+2025-04-25 22:24:36,211 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save', 'Cancel', 'Submi...ome > Orders > Pending'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 857, in _analyze_image_with_openai
+    analysis_result = ImageAnalysisResult(
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ImageAnalysisResult
+extracted_text
+  Input should be a valid string [type=string_type, input_value=['Save', 'Cancel', 'Submi...ome > Orders > Pending'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 22:24:36,213 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a screenshot of an ERP system interface, likely a module related to order management or inventory processing. The layout includes a main data table occupying the central and right portions, with a navigation or filter panel on the left. There are various UI elements such as buttons, form fields, icons, and possibly modal windows or popups. The interface appears to facilitate data entry, filtering, and review of transactional or inventory data, with visual cues...
+2025-04-25 22:24:36,213 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.33 seconds
+2025-04-25 22:24:38,025 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 6.11 seconds
+2025-04-25 22:24:38,025 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 6.11 seconds
+2025-04-25 22:24:38,603 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.71 seconds
+2025-04-25 22:24:38,608 - src.chattingwithcontext7.pdf_processor - ERROR - Problematic JSON content (truncated): {
+  "description": "The image shows a detailed screenshot of an ERP system interface, likely a scheduling or calendar module combined with a task or contact management panel. The interface is divided into several sections: a left sidebar with a list of contacts or entities, a main calendar view displaying scheduled activities across days, and a bottom panel listing detailed task or event information. The calendar displays a weekly view from June 24 to June 29, 2013, with various scheduled activi...
+2025-04-25 22:24:38,609 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.72 seconds

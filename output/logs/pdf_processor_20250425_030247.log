@@ -1,0 +1,1994 @@
+2025-04-25 03:02:48,600 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: entersoft-docs\4.0.10.0_Readme.pdf
+2025-04-25 03:02:48,622 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 03:02:48,633 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 03:02:48,640 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 03:02:48,650 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 03:02:51,138 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 03:02:56,558 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 03:02:59,393 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 03:02:59,400 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 03:02:59,408 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p9_img1.png
+2025-04-25 03:03:02,481 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p10_img1.png
+2025-04-25 03:03:02,484 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: entersoft-docs\4.0.12.0_Readme.pdf
+2025-04-25 03:03:02,499 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 03:03:02,511 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 03:03:02,518 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 03:03:02,525 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 03:03:05,202 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 03:03:05,459 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 1/3 for call_gemini_api after 0.91s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "54s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:05,463 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 1/3 for call_gemini_api after 1.25s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-2.0-flash",
+              "location": "global"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "54s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:06,494 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 2/3 for call_gemini_api after 2.41s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "53s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:06,834 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 2/3 for call_gemini_api after 1.57s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "52s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:08,509 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 3/3 for call_gemini_api after 3.70s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "51s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:09,004 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 3/3 for call_gemini_api after 3.58s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-2.0-flash",
+              "location": "global"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "50s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:12,318 - src.chattingwithcontext7.pdf_processor - ERROR - Failed after 3 retries for call_gemini_api: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "47s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:12,319 - src.chattingwithcontext7.pdf_processor - ERROR - Error calling Gemini API after retries: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "47s"
+      }
+    ]
+  }
+}
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 386, in _analyze_image_with_gemini
+    response = await retry_async(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\retry_utils.py", line 133, in retry_async
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 378, in call_gemini_api
+    return await self.agent.run(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\agent.py", line 435, in run
+    async for _ in agent_run:
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\agent.py", line 1744, in __anext__
+    next_node = await self._graph_run.__anext__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_graph\graph.py", line 810, in __anext__
+    return await self.next(self._next_node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_graph\graph.py", line 783, in next
+    self._next_node = await node.run(ctx)
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\_agent_graph.py", line 271, in run
+    return await self._make_request(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\_agent_graph.py", line 325, in _make_request
+    model_response, request_usage = await ctx.deps.model.request(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\models\gemini.py", line 138, in request
+    async with self._make_request(
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\models\gemini.py", line 245, in _make_request
+    raise ModelHTTPError(status_code=status_code, model_name=self.model_name, body=r.text)
+pydantic_ai.exceptions.ModelHTTPError: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "47s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:12,708 - src.chattingwithcontext7.pdf_processor - ERROR - Failed after 3 retries for call_gemini_api: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "46s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:12,711 - src.chattingwithcontext7.pdf_processor - ERROR - Error calling Gemini API after retries: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "46s"
+      }
+    ]
+  }
+}
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 386, in _analyze_image_with_gemini
+    response = await retry_async(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\retry_utils.py", line 133, in retry_async
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 378, in call_gemini_api
+    return await self.agent.run(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\agent.py", line 435, in run
+    async for _ in agent_run:
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\agent.py", line 1744, in __anext__
+    next_node = await self._graph_run.__anext__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_graph\graph.py", line 810, in __anext__
+    return await self.next(self._next_node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_graph\graph.py", line 783, in next
+    self._next_node = await node.run(ctx)
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\_agent_graph.py", line 271, in run
+    return await self._make_request(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\_agent_graph.py", line 325, in _make_request
+    model_response, request_usage = await ctx.deps.model.request(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\models\gemini.py", line 138, in request
+    async with self._make_request(
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\models\gemini.py", line 245, in _make_request
+    raise ModelHTTPError(status_code=status_code, model_name=self.model_name, body=r.text)
+pydantic_ai.exceptions.ModelHTTPError: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "46s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:12,722 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 03:03:12,852 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 1/3 for call_gemini_api after 1.18s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "46s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:13,034 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 1/3 for call_gemini_api after 1.07s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "46s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:14,120 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 2/3 for call_gemini_api after 2.20s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "45s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:14,206 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 2/3 for call_gemini_api after 1.62s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "45s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:15,954 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 3/3 for call_gemini_api after 3.13s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "43s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:16,409 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 3/3 for call_gemini_api after 3.08s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "43s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:19,184 - src.chattingwithcontext7.pdf_processor - ERROR - Failed after 3 retries for call_gemini_api: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-2.0-flash",
+              "location": "global"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "40s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:19,185 - src.chattingwithcontext7.pdf_processor - ERROR - Error calling Gemini API after retries: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-2.0-flash",
+              "location": "global"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "40s"
+      }
+    ]
+  }
+}
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 386, in _analyze_image_with_gemini
+    response = await retry_async(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\retry_utils.py", line 133, in retry_async
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 378, in call_gemini_api
+    return await self.agent.run(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\agent.py", line 435, in run
+    async for _ in agent_run:
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\agent.py", line 1744, in __anext__
+    next_node = await self._graph_run.__anext__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_graph\graph.py", line 810, in __anext__
+    return await self.next(self._next_node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_graph\graph.py", line 783, in next
+    self._next_node = await node.run(ctx)
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\_agent_graph.py", line 271, in run
+    return await self._make_request(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\_agent_graph.py", line 325, in _make_request
+    model_response, request_usage = await ctx.deps.model.request(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\models\gemini.py", line 138, in request
+    async with self._make_request(
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\models\gemini.py", line 245, in _make_request
+    raise ModelHTTPError(status_code=status_code, model_name=self.model_name, body=r.text)
+pydantic_ai.exceptions.ModelHTTPError: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-2.0-flash",
+              "location": "global"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "40s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:19,587 - src.chattingwithcontext7.pdf_processor - ERROR - Failed after 3 retries for call_gemini_api: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "39s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:19,589 - src.chattingwithcontext7.pdf_processor - ERROR - Error calling Gemini API after retries: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "39s"
+      }
+    ]
+  }
+}
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 386, in _analyze_image_with_gemini
+    response = await retry_async(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\retry_utils.py", line 133, in retry_async
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 378, in call_gemini_api
+    return await self.agent.run(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\agent.py", line 435, in run
+    async for _ in agent_run:
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\agent.py", line 1744, in __anext__
+    next_node = await self._graph_run.__anext__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_graph\graph.py", line 810, in __anext__
+    return await self.next(self._next_node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_graph\graph.py", line 783, in next
+    self._next_node = await node.run(ctx)
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\_agent_graph.py", line 271, in run
+    return await self._make_request(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\_agent_graph.py", line 325, in _make_request
+    model_response, request_usage = await ctx.deps.model.request(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\models\gemini.py", line 138, in request
+    async with self._make_request(
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\models\gemini.py", line 245, in _make_request
+    raise ModelHTTPError(status_code=status_code, model_name=self.model_name, body=r.text)
+pydantic_ai.exceptions.ModelHTTPError: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "39s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:19,599 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 03:03:19,742 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 1/3 for call_gemini_api after 0.97s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "39s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:19,921 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 1/3 for call_gemini_api after 1.18s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "39s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:20,811 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 2/3 for call_gemini_api after 1.51s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "38s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:21,203 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 2/3 for call_gemini_api after 2.38s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-2.0-flash",
+              "location": "global"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "38s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:22,430 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 3/3 for call_gemini_api after 3.11s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "37s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:23,685 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 3/3 for call_gemini_api after 3.53s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "35s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:25,639 - src.chattingwithcontext7.pdf_processor - ERROR - Failed after 3 retries for call_gemini_api: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-2.0-flash",
+              "location": "global"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "33s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:25,641 - src.chattingwithcontext7.pdf_processor - ERROR - Error calling Gemini API after retries: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-2.0-flash",
+              "location": "global"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "33s"
+      }
+    ]
+  }
+}
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 386, in _analyze_image_with_gemini
+    response = await retry_async(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\retry_utils.py", line 133, in retry_async
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 378, in call_gemini_api
+    return await self.agent.run(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\agent.py", line 435, in run
+    async for _ in agent_run:
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\agent.py", line 1744, in __anext__
+    next_node = await self._graph_run.__anext__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_graph\graph.py", line 810, in __anext__
+    return await self.next(self._next_node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_graph\graph.py", line 783, in next
+    self._next_node = await node.run(ctx)
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\_agent_graph.py", line 271, in run
+    return await self._make_request(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\_agent_graph.py", line 325, in _make_request
+    model_response, request_usage = await ctx.deps.model.request(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\models\gemini.py", line 138, in request
+    async with self._make_request(
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\models\gemini.py", line 245, in _make_request
+    raise ModelHTTPError(status_code=status_code, model_name=self.model_name, body=r.text)
+pydantic_ai.exceptions.ModelHTTPError: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-2.0-flash",
+              "location": "global"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "33s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:27,314 - src.chattingwithcontext7.pdf_processor - ERROR - Failed after 3 retries for call_gemini_api: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "32s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:27,317 - src.chattingwithcontext7.pdf_processor - ERROR - Error calling Gemini API after retries: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "32s"
+      }
+    ]
+  }
+}
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 386, in _analyze_image_with_gemini
+    response = await retry_async(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\retry_utils.py", line 133, in retry_async
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 378, in call_gemini_api
+    return await self.agent.run(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\agent.py", line 435, in run
+    async for _ in agent_run:
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\agent.py", line 1744, in __anext__
+    next_node = await self._graph_run.__anext__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_graph\graph.py", line 810, in __anext__
+    return await self.next(self._next_node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_graph\graph.py", line 783, in next
+    self._next_node = await node.run(ctx)
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\_agent_graph.py", line 271, in run
+    return await self._make_request(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\_agent_graph.py", line 325, in _make_request
+    model_response, request_usage = await ctx.deps.model.request(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\models\gemini.py", line 138, in request
+    async with self._make_request(
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic_ai\models\gemini.py", line 245, in _make_request
+    raise ModelHTTPError(status_code=status_code, model_name=self.model_name, body=r.text)
+pydantic_ai.exceptions.ModelHTTPError: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "32s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:27,327 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 03:03:27,491 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 1/3 for call_gemini_api after 1.12s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "32s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:27,619 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 1/3 for call_gemini_api after 0.94s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "31s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:27,695 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 1/3 for call_gemini_api after 1.03s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "31s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:27,698 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 1/3 for call_gemini_api after 1.02s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "31s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:28,666 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 2/3 for call_gemini_api after 2.49s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "30s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:28,696 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 2/3 for call_gemini_api after 2.11s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "30s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:28,818 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 2/3 for call_gemini_api after 2.19s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-2.0-flash",
+              "location": "global"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "30s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:28,820 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 2/3 for call_gemini_api after 2.16s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "30s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:30,906 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 3/3 for call_gemini_api after 3.27s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "28s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:31,063 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 3/3 for call_gemini_api after 3.87s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-2.0-flash",
+              "location": "global"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "28s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:31,110 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 3/3 for call_gemini_api after 3.53s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "28s"
+      }
+    ]
+  }
+}
+
+2025-04-25 03:03:31,246 - src.chattingwithcontext7.pdf_processor - WARNING - Retry 3/3 for call_gemini_api after 3.49s due to: status_code: 429, model_name: gemini-2.0-flash, body: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "28s"
+      }
+    ]
+  }
+}
+

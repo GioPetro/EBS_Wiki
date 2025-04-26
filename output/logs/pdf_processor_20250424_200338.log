@@ -1,0 +1,20 @@
+2025-04-24 20:03:38,322 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF files in ./test_pdfs_multiple
+2025-04-24 20:03:38,325 - src.chattingwithcontext7.pdf_processor - INFO - Output directory: ./output
+2025-04-24 20:03:38,327 - src.chattingwithcontext7.pdf_processor - INFO - Images directory: ./output\images
+2025-04-24 20:03:38,327 - src.chattingwithcontext7.pdf_processor - INFO - LightRAG directory: ./output\lightrag
+2025-04-24 20:03:38,328 - src.chattingwithcontext7.pdf_processor - INFO - Found 2 PDF files
+2025-04-24 20:03:38,328 - src.chattingwithcontext7.pdf_processor - INFO -   1. test_pdfs_multiple\4.0.12.1_Readme.pdf
+2025-04-24 20:03:38,339 - src.chattingwithcontext7.pdf_processor - INFO -   2. test_pdfs_multiple\4.0.14.1_Readme.pdf
+2025-04-24 20:03:38,340 - src.chattingwithcontext7.pdf_processor - INFO - Processing file 1/2: test_pdfs_multiple\4.0.12.1_Readme.pdf
+2025-04-24 20:03:38,340 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs_multiple\4.0.12.1_Readme.pdf
+2025-04-24 20:03:38,354 - src.chattingwithcontext7.pdf_processor - INFO - Saved 1 LightRAG documents to ./output\lightrag\4.0.12.1_Readme_lightrag.json
+2025-04-24 20:03:38,355 - src.chattingwithcontext7.pdf_processor - INFO - Processing file 2/2: test_pdfs_multiple\4.0.14.1_Readme.pdf
+2025-04-24 20:03:38,355 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs_multiple\4.0.14.1_Readme.pdf
+2025-04-24 20:03:38,368 - src.chattingwithcontext7.pdf_processor - WARNING - Using synchronous fallback for image analysis
+2025-04-24 20:03:38,381 - src.chattingwithcontext7.pdf_processor - WARNING - Using synchronous fallback for image analysis
+2025-04-24 20:03:38,390 - src.chattingwithcontext7.pdf_processor - WARNING - Using synchronous fallback for image analysis
+2025-04-24 20:03:38,447 - src.chattingwithcontext7.pdf_processor - WARNING - Using synchronous fallback for image analysis
+2025-04-24 20:03:38,472 - src.chattingwithcontext7.pdf_processor - WARNING - Using synchronous fallback for image analysis
+2025-04-24 20:03:38,474 - src.chattingwithcontext7.pdf_processor - INFO - Saved 10 LightRAG documents to ./output\lightrag\4.0.14.1_Readme_lightrag.json
+2025-04-24 20:03:38,477 - src.chattingwithcontext7.pdf_processor - INFO - Saved 11 LightRAG documents to ./output\lightrag\combined_lightrag.json
+2025-04-24 20:03:38,479 - src.chattingwithcontext7.pdf_processor - INFO - Saved processing statistics to ./output\processing_stats.json

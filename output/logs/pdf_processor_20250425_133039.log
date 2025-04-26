@@ -1,0 +1,51 @@
+2025-04-25 13:30:40,466 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\CRM v4-MarketingSegmentationEN.pdf
+2025-04-25 13:30:40,487 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 13:30:40,495 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 13:30:40,500 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 13:30:40,506 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 13:30:40,514 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 13:30:40,523 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 13:30:40,573 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\CRM-HomePages_EN.pdf
+2025-04-25 13:30:40,583 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 13:30:40,588 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\CRMSocial-UserGuideEN.pdf
+2025-04-25 13:30:40,608 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 13:30:46,369 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 13:31:02,397 - src.chattingwithcontext7.pdf_processor - WARNING - Error creating UIElement: 1 validation error for UIElement
+content
+  Input should be a valid string [type=string_type, input_value=[{'Code': 'Person', 'Desc... 'Created by': 'ESDEV'}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 13:31:02,397 - src.chattingwithcontext7.pdf_processor - WARNING - Error creating UIElement: 1 validation error for UIElement
+content
+  Input should be a valid string [type=string_type, input_value=[{'Code': 'New Leads', 'D...ber of entries': '139'}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 13:31:02,404 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 13:31:04,700 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 13:31:13,942 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 13:31:20,808 - src.chattingwithcontext7.pdf_processor - WARNING - Error creating UIElement: 1 validation error for UIElement
+content
+  Input should be a valid string [type=string_type, input_value=['Create Purchase Order',...eceive PO Confirmation'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 13:31:21,975 - src.chattingwithcontext7.pdf_processor - WARNING - Error creating UIElement: 1 validation error for UIElement
+content
+  Input should be a valid string [type=string_type, input_value=[{'Item Code': 'ITM-001',...', 'Status': 'Pending'}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 13:31:22,890 - src.chattingwithcontext7.pdf_processor - WARNING - Error creating UIElement: 1 validation error for UIElement
+content
+  Input should be a valid string [type=string_type, input_value=[{'Item Code': 'ITM001', ...675', 'Status': 'Open'}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 13:31:22,890 - src.chattingwithcontext7.pdf_processor - WARNING - Error creating UIElement: 1 validation error for UIElement
+content
+  Input should be a valid string [type=string_type, input_value={'Delivery Date': '2024-0...ipping Method': 'FedEx'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 13:31:27,917 - src.chattingwithcontext7.pdf_processor - WARNING - Error creating UIElement: 1 validation error for UIElement
+content
+  Input should be a valid string [type=string_type, input_value=[{'Item Code': 'ITM001', ...', 'Status': 'Pending'}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 13:31:31,143 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 13:31:31,153 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 13:31:36,705 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 13:31:49,626 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 13:31:51,876 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 13:31:58,703 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 13:32:01,051 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 13:32:05,669 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png

@@ -1,0 +1,22 @@
+2025-04-25 01:53:35,879 - lightrag_database - INFO - Starting database build process
+2025-04-25 01:53:35,880 - lightrag_database - INFO - Initializing LightRAG in ./lightrag_data
+2025-04-25 01:53:37,029 - lightrag_database - INFO - Initializing LightRAG storages
+2025-04-25 01:53:37,039 - lightrag_database - INFO - LightRAG initialized successfully in ./lightrag_data
+2025-04-25 01:53:37,040 - lightrag_database - INFO - Processing PDF files in ./test_pdfs (including subdirectories)
+2025-04-25 01:53:37,040 - lightrag_database - INFO - Finding PDF files in ./test_pdfs (recursive=True)
+2025-04-25 01:53:37,042 - lightrag_database - INFO - Found 2 PDF files
+2025-04-25 01:53:37,043 - lightrag_database - INFO - Using concurrency limit of 5 for PDF processing
+2025-04-25 01:53:48,660 - lightrag_database - INFO - Processing PDF files: 1/2 (50.0%) - Elapsed: 11.62 seconds, Remaining: 11.62 seconds, Speed: 0.09 items/sec - Processed: 4.0.12.1_Readme.pdf
+2025-04-25 01:53:48,661 - lightrag_database - INFO - Processing PDF files: 2/2 (100.0%) - Elapsed: 11.62 seconds, Remaining: 0.00 seconds, Speed: 0.17 items/sec - Processed: 4.0.14.1_Readme.pdf
+2025-04-25 01:53:48,663 - lightrag_database - INFO - Processed 2 documents with 11 chunks
+2025-04-25 01:53:48,664 - lightrag_database - INFO - Processing time: 11.62 seconds
+2025-04-25 01:53:48,664 - lightrag_database - INFO - LightRAG documents saved to ./output\combined_lightrag.json
+2025-04-25 01:53:48,665 - lightrag_database - INFO - Loading documents into LightRAG from ./output\combined_lightrag.json
+2025-04-25 01:53:48,666 - lightrag_database - INFO - Loading documents into LightRAG: 1/11 (9.1%) - Elapsed: 0.00 seconds, Remaining: 0.00 seconds, Speed: 0.00 items/sec
+2025-04-25 01:54:32,168 - lightrag_database - INFO - Loading documents into LightRAG: 11/11 (100.0%) - Elapsed: 43.50 seconds, Remaining: 0.00 seconds, Speed: 0.25 items/sec
+2025-04-25 01:54:36,569 - lightrag_database - INFO - Loaded 11 chunks into LightRAG
+2025-04-25 01:54:36,571 - lightrag_database - INFO - Saved database information to ./output\database_info.json
+2025-04-25 01:54:36,571 - lightrag_database - INFO - Database build complete. Information saved to ./output\database_info.json
+2025-04-25 01:54:36,572 - lightrag_database - INFO - Database directory: ./lightrag_data
+2025-04-25 01:54:36,572 - lightrag_database - INFO - Total documents: 2
+2025-04-25 01:54:36,573 - lightrag_database - INFO - Total chunks: 11

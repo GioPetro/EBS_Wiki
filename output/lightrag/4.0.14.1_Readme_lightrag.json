@@ -1,0 +1,152 @@
+[
+  {
+    "id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db_p1_c0",
+    "text": " \n \n \n    \n \n \n \n \nEBS Version 4.0.14.1 \nEntersoft Business Suite® | Entersoft CRM® \nΝέα χαρακτηριστικά και επεκτάσεις \n \n \n",
+    "metadata": {
+      "document_id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db",
+      "filename": "4.0.14.1_Readme.pdf",
+      "title": "4.0.14.1_Readme",
+      "page": 1,
+      "chunk": 0,
+      "content_type": "TEXT",
+      "segment_id": "4.0.14.1_Readme_p1_text"
+    }
+  },
+  {
+    "id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db_p2_c0",
+    "text": " \nEBS Εκδοση 4.0.14.1 \nΣελίδα: 2 / 3 \nΣυνοπτική περιγραφή περιεχομένων έκδοσης \nΔείτε μια συνοπτική περιγραφή των κύριων επεκτάσεων της έκδοσης. Στη συνέχεια, αναλύεται κατά κατηγορία ο πλήρης κατάλογος \nτων νέων λειτουργιών & βελτιώσεων με οδηγίες χρήσης & παραδείγματα όπου χρειάζεται. \nEntersoft ERP \n \nΝέα εκτύπωση ενηλικίωσης υπολοίπων Πληρωτέων για λογιστική συμφωνία \n",
+    "metadata": {
+      "document_id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db",
+      "filename": "4.0.14.1_Readme.pdf",
+      "title": "4.0.14.1_Readme",
+      "page": 2,
+      "chunk": 0,
+      "content_type": "TEXT",
+      "segment_id": "4.0.14.1_Readme_p2_text"
+    }
+  },
+  {
+    "id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db_p3_c0",
+    "text": " \nEBS Εκδοση 4.0.14.1 \nΣελίδα: 3 / 3 \nEntersoft ERP \nΕνηλικίωση υπολοίπων Πληρωτέων για λογιστική συμφωνία \nΠροστέθηκε εκτύπωση Ενηλικίωσης Υπολοίπου Πληρωτέων για Λογιστικό έλεγχο (καλείται από το μενού των Πληρωτέων \nλογαριασμών της ενότητας Λογιστήριο). Σκοπός της εκτύπωσης είναι να συμφωνεί με Καρτέλες και Ισοζύγια όταν αυτά παρθούν για \nπροηγούμενες περιόδους/ημερομηνίες και να δείχνει την παλαιότητα του «λογιστικού υπολοίπου». Στην όψη αυτή:  \n \nτα ποσά είναι πάντα σε βασικό νόμισμα (λαμβανομένων υπόψη και των πιθανών συναλλαγματικών διαφορών, μόνον αν αυτές \nέχουν κλείσει – άρα έχουν ενημερώσει τις καρτέλες πληρωτέων - στο διάστημα που ζητείται και μάλιστα με την έτοιμη διαδικασία \nκλεισίματος συναλλαγματικών διαφορών με «αναλυτικές εγγραφές» και όχι με πληκτρολόγηση διορθωτικών εγγραφών, μιας που \nαυτές δεν αποθηκεύουν πληροφορίες για την προέλευσή τους, ώστε να χρησιμοποιηθούν στους υπολογισμούς ηλικίας υπολοίπου) \n \nη ενηλικίωση γίνεται με βάση την ημερομηνία έκδοσης των πα",
+    "metadata": {
+      "document_id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db",
+      "filename": "4.0.14.1_Readme.pdf",
+      "title": "4.0.14.1_Readme",
+      "page": 3,
+      "chunk": 0,
+      "content_type": "TEXT",
+      "segment_id": "4.0.14.1_Readme_p3_text"
+    }
+  },
+  {
+    "id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db_p3_c1",
+    "text": "στους υπολογισμούς ηλικίας υπολοίπου) \n \nη ενηλικίωση γίνεται με βάση την ημερομηνία έκδοσης των παραστατικών και όχι την ημερομηνία λήξης \n \nπεριλαμβάνονται (ως αρνητικές) οι εξοφλήσεις που αφορούν μεταγενέστερες του ζητούμενου διαστήματος οφειλές (που τότε \nδηλαδή, ήταν προκαταβολές) \n \nυπολογίζεται μια πρόσθετη στήλη με τις ακυρώσεις/επιστροφές αξιογράφων (π.χ. παραστατικά ΕΦΠ, ΚΕΠ), εγγραφές \nδηλαδή που ακύρωσαν την αντιστοίχιση (η οποία δίνει ως αποτέλεσμα την «ενηλικίωση»), ώστε προστιθέμενη στο υπόλοιπο, \nνα δίνει το τελικό υπόλοιπο που εμφανίζουν και οι Καρτέλες/Ισοζύγια. \n \nΗ όψη αγνοεί ακυρωμένα και ακυρωτικά παραστατικά.  \nΑυτό σημαίνει πως προϋπόθεση για να κάνει κανείς έλεγχο είναι είτε να μη χρησιμοποιεί τη διαδικασία των ακυρωτικών παρά μόνο \nαυθημερόν, είτε ΑΝ η διαδικασία λογιστικού ελέγχου είναι π.χ. μηναία, απλά να μην ακυρώνει παραστατικά διαφορετικού μήνα και \nνα παίρνει την εκτύπωση αυτή με ημερομηνία αναφοράς κάθε τέλος μήνα. \n",
+    "metadata": {
+      "document_id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db",
+      "filename": "4.0.14.1_Readme.pdf",
+      "title": "4.0.14.1_Readme",
+      "page": 3,
+      "chunk": 1,
+      "content_type": "TEXT",
+      "segment_id": "4.0.14.1_Readme_p3_text"
+    }
+  },
+  {
+    "id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db_p3_c2",
+    "text": "τατικά διαφορετικού μήνα και \nνα παίρνει την εκτύπωση αυτή με ημερομηνία αναφοράς κάθε τέλος μήνα. \n",
+    "metadata": {
+      "document_id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db",
+      "filename": "4.0.14.1_Readme.pdf",
+      "title": "4.0.14.1_Readme",
+      "page": 3,
+      "chunk": 2,
+      "content_type": "TEXT",
+      "segment_id": "4.0.14.1_Readme_p3_text"
+    }
+  },
+  {
+    "id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db_img4.0.14.1_Readme_p1_img1",
+    "text": "[Image: Image analysis not available (async error)]",
+    "metadata": {
+      "document_id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db",
+      "filename": "4.0.14.1_Readme.pdf",
+      "title": "4.0.14.1_Readme",
+      "page": 1,
+      "content_type": "IMAGE",
+      "segment_id": "4.0.14.1_Readme_p1_img1",
+      "tags": [
+        "analysis_failed",
+        "async_error"
+      ],
+      "confidence_score": 0.0
+    }
+  },
+  {
+    "id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db_img4.0.14.1_Readme_p2_img1",
+    "text": "[Image: Image analysis not available (async error)]",
+    "metadata": {
+      "document_id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db",
+      "filename": "4.0.14.1_Readme.pdf",
+      "title": "4.0.14.1_Readme",
+      "page": 2,
+      "content_type": "IMAGE",
+      "segment_id": "4.0.14.1_Readme_p2_img1",
+      "tags": [
+        "analysis_failed",
+        "async_error"
+      ],
+      "confidence_score": 0.0
+    }
+  },
+  {
+    "id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db_img4.0.14.1_Readme_p3_img1",
+    "text": "[Image: Image analysis not available (async error)]",
+    "metadata": {
+      "document_id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db",
+      "filename": "4.0.14.1_Readme.pdf",
+      "title": "4.0.14.1_Readme",
+      "page": 3,
+      "content_type": "IMAGE",
+      "segment_id": "4.0.14.1_Readme_p3_img1",
+      "tags": [
+        "analysis_failed",
+        "async_error"
+      ],
+      "confidence_score": 0.0
+    }
+  },
+  {
+    "id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db_img4.0.14.1_Readme_p3_img2",
+    "text": "[Image: Image analysis not available (async error)]",
+    "metadata": {
+      "document_id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db",
+      "filename": "4.0.14.1_Readme.pdf",
+      "title": "4.0.14.1_Readme",
+      "page": 3,
+      "content_type": "IMAGE",
+      "segment_id": "4.0.14.1_Readme_p3_img2",
+      "tags": [
+        "analysis_failed",
+        "async_error"
+      ],
+      "confidence_score": 0.0
+    }
+  },
+  {
+    "id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db_img4.0.14.1_Readme_p3_img3",
+    "text": "[Image: Image analysis not available (async error)]",
+    "metadata": {
+      "document_id": "fab1bff5-17d8-4fb2-a8a4-2f6a873846db",
+      "filename": "4.0.14.1_Readme.pdf",
+      "title": "4.0.14.1_Readme",
+      "page": 3,
+      "content_type": "IMAGE",
+      "segment_id": "4.0.14.1_Readme_p3_img3",
+      "tags": [
+        "analysis_failed",
+        "async_error"
+      ],
+      "confidence_score": 0.0
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "start_time": "2025-04-25T23:13:21.400234",
+  "end_time": "2025-04-26T19:28:19.895293",
+  "total_documents": 14,
+  "total_chunks": 2841,
+  "total_pages": 438,
+  "total_images": 1696,
+  "processing_time_seconds": 1079.806079,
+  "database_path": "./lightrag_data",
+  "lightrag_docs_path": "./output\\combined_lightrag.json",
+  "concurrency_limit": 5,
+  "processed_files_dir": "processed-test_pdfs",
+  "processed_files": [
+    "CRM MarketingTradePromotionsEN.pdf",
+    "CRM v4-ABCClassificationEN.pdf",
+    "CRM v4-MarketingCampaignsEN.pdf",
+    "CRM v4-ContactMgtEL.pdf",
+    "CRM v4-ActivityMgtEL.pdf",
+    "CRM v4-MarketingSegmentationEN.pdf",
+    "CRM-UserGuideEN.pdf",
+    "CRM v4-PipelineQuotingEL.pdf",
+    "CRM-HomePages_EN.pdf",
+    "CRMSocial-UserGuideEN.pdf",
+    "CRM_Newsletters-UserGuideEN.pdf",
+    "CRM_TerritoryManagement_EN.pdf",
+    "CRM_MarketingPromotionPrograms_EN.pdf",
+    "CRM_MarketingSurveyCampaigns_EN.pdf"
+  ],
+  "skipped_files": []
+}

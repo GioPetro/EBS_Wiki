@@ -1,0 +1,168 @@
+2025-04-25 20:33:21,827 - lightrag_database - INFO - Starting database build process
+2025-04-25 20:33:21,827 - lightrag_database - INFO - Initializing LightRAG in ./lightrag_data
+2025-04-25 20:33:24,574 - lightrag_database - INFO - Initializing LightRAG storages
+2025-04-25 20:33:24,733 - lightrag_database - INFO - LightRAG initialized successfully in ./lightrag_data
+2025-04-25 20:33:24,733 - lightrag_database - INFO - Processing PDF files in entersoft-docs (including subdirectories)
+2025-04-25 20:33:24,733 - lightrag_database - INFO - Finding PDF files in entersoft-docs (recursive=True)
+2025-04-25 20:33:24,740 - lightrag_database - INFO - Found 156 PDF files
+2025-04-25 20:33:24,744 - lightrag_database - INFO - Found 156 unprocessed files out of 156 total files
+2025-04-25 20:33:24,745 - lightrag_database - INFO - Using concurrency limit of 5 for PDF processing
+2025-04-25 20:33:24,746 - lightrag_database - DEBUG - Creating task for processing: 4.0.12.0_Readme.pdf
+2025-04-25 20:33:24,746 - lightrag_database - DEBUG - Creating task for processing: 4.0.14.0_Readme.pdf
+2025-04-25 20:33:24,747 - lightrag_database - DEBUG - Creating task for processing: 4.0.16.0_Readme.pdf
+2025-04-25 20:33:24,747 - lightrag_database - DEBUG - Creating task for processing: 4.0.16.1_Readme.pdf
+2025-04-25 20:33:24,747 - lightrag_database - DEBUG - Creating task for processing: 4.0.18.1_Readme.pdf
+2025-04-25 20:34:35,466 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.18.1_Readme.pdf
+2025-04-25 20:37:59,472 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.16.0_Readme.pdf
+2025-04-25 20:43:36,266 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.14.0_Readme.pdf
+2025-04-25 20:46:12,145 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.12.0_Readme.pdf
+2025-04-25 20:52:51,534 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.16.1_Readme.pdf
+2025-04-25 20:52:51,535 - lightrag_database - INFO - Processing PDF files: 1/156 (0.6%) - Elapsed: 19.45 minutes, Remaining: 50.24 hours, Speed: 0.00 items/sec - Processed: 4.0.12.0_Readme.pdf
+2025-04-25 20:52:51,536 - lightrag_database - INFO - Processing PDF files: 2/156 (1.3%) - Elapsed: 19.45 minutes, Remaining: 24.96 hours, Speed: 0.00 items/sec - Processed: 4.0.14.0_Readme.pdf
+2025-04-25 20:52:51,536 - lightrag_database - INFO - Processing PDF files: 3/156 (1.9%) - Elapsed: 19.45 minutes, Remaining: 16.53 hours, Speed: 0.00 items/sec - Processed: 4.0.16.0_Readme.pdf
+2025-04-25 20:52:51,537 - lightrag_database - INFO - Processing PDF files: 4/156 (2.6%) - Elapsed: 19.45 minutes, Remaining: 12.32 hours, Speed: 0.00 items/sec - Processed: 4.0.16.1_Readme.pdf
+2025-04-25 20:52:51,537 - lightrag_database - INFO - Processing PDF files: 5/156 (3.2%) - Elapsed: 19.45 minutes, Remaining: 9.79 hours, Speed: 0.00 items/sec - Processed: 4.0.18.1_Readme.pdf
+2025-04-25 20:52:51,538 - lightrag_database - DEBUG - Creating task for processing: 4.0.18.4_Readme.pdf
+2025-04-25 20:52:51,538 - lightrag_database - DEBUG - Creating task for processing: 4.0.18.5_Readme.pdf
+2025-04-25 20:52:51,539 - lightrag_database - DEBUG - Creating task for processing: 4.0.18.6_Readme.pdf
+2025-04-25 20:52:51,539 - lightrag_database - DEBUG - Creating task for processing: 4.0.22.0_Readme.pdf
+2025-04-25 20:52:51,540 - lightrag_database - DEBUG - Creating task for processing: 4.0.22.1_Readme.pdf
+2025-04-25 20:53:08,052 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.18.5_Readme.pdf
+2025-04-25 20:53:16,800 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.18.6_Readme.pdf
+2025-04-25 20:53:17,067 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.18.4_Readme.pdf
+2025-04-25 20:54:11,525 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.22.1_Readme.pdf
+2025-04-25 20:55:32,292 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.22.0_Readme.pdf
+2025-04-25 20:55:32,293 - lightrag_database - INFO - Processing PDF files: 6/156 (3.8%) - Elapsed: 22.13 minutes, Remaining: 9.22 hours, Speed: 0.00 items/sec - Processed: 4.0.18.4_Readme.pdf
+2025-04-25 20:55:32,294 - lightrag_database - INFO - Processing PDF files: 7/156 (4.5%) - Elapsed: 22.13 minutes, Remaining: 7.85 hours, Speed: 0.01 items/sec - Processed: 4.0.18.5_Readme.pdf
+2025-04-25 20:55:32,295 - lightrag_database - INFO - Processing PDF files: 8/156 (5.1%) - Elapsed: 22.13 minutes, Remaining: 6.82 hours, Speed: 0.01 items/sec - Processed: 4.0.18.6_Readme.pdf
+2025-04-25 20:55:32,296 - lightrag_database - INFO - Processing PDF files: 9/156 (5.8%) - Elapsed: 22.13 minutes, Remaining: 6.02 hours, Speed: 0.01 items/sec - Processed: 4.0.22.0_Readme.pdf
+2025-04-25 20:55:32,296 - lightrag_database - INFO - Processing PDF files: 10/156 (6.4%) - Elapsed: 22.13 minutes, Remaining: 5.38 hours, Speed: 0.01 items/sec - Processed: 4.0.22.1_Readme.pdf
+2025-04-25 20:55:32,296 - lightrag_database - DEBUG - Creating task for processing: 4.0.22.2_Readme.pdf
+2025-04-25 20:55:32,297 - lightrag_database - DEBUG - Creating task for processing: 4.0.24.0_Readme.pdf
+2025-04-25 20:55:32,297 - lightrag_database - DEBUG - Creating task for processing: 4.0.24.1_Readme.pdf
+2025-04-25 20:55:32,297 - lightrag_database - DEBUG - Creating task for processing: 4.0.24.2_Readme.pdf
+2025-04-25 20:55:32,298 - lightrag_database - DEBUG - Creating task for processing: 4.0.24.3_Readme.pdf
+2025-04-25 20:55:32,550 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.24.3_Readme.pdf
+2025-04-25 20:55:57,613 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.24.2_Readme.pdf
+2025-04-25 20:57:05,455 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.22.2_Readme.pdf
+2025-04-25 20:57:37,446 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.24.1_Readme.pdf
+2025-04-25 21:08:15,409 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.24.0_Readme.pdf
+2025-04-25 21:08:15,411 - lightrag_database - INFO - Processing PDF files: 11/156 (7.1%) - Elapsed: 34.84 minutes, Remaining: 7.66 hours, Speed: 0.01 items/sec - Processed: 4.0.22.2_Readme.pdf
+2025-04-25 21:08:15,412 - lightrag_database - INFO - Processing PDF files: 12/156 (7.7%) - Elapsed: 34.84 minutes, Remaining: 6.97 hours, Speed: 0.01 items/sec - Processed: 4.0.24.0_Readme.pdf
+2025-04-25 21:08:15,412 - lightrag_database - INFO - Processing PDF files: 13/156 (8.3%) - Elapsed: 34.84 minutes, Remaining: 6.39 hours, Speed: 0.01 items/sec - Processed: 4.0.24.1_Readme.pdf
+2025-04-25 21:08:15,412 - lightrag_database - INFO - Processing PDF files: 14/156 (9.0%) - Elapsed: 34.84 minutes, Remaining: 5.89 hours, Speed: 0.01 items/sec - Processed: 4.0.24.2_Readme.pdf
+2025-04-25 21:08:15,413 - lightrag_database - INFO - Processing PDF files: 15/156 (9.6%) - Elapsed: 34.84 minutes, Remaining: 5.46 hours, Speed: 0.01 items/sec - Processed: 4.0.24.3_Readme.pdf
+2025-04-25 21:08:15,413 - lightrag_database - DEBUG - Creating task for processing: 4.0.24.4_Readme.pdf
+2025-04-25 21:08:15,413 - lightrag_database - DEBUG - Creating task for processing: 4.0.24.5_Readme.pdf
+2025-04-25 21:08:15,413 - lightrag_database - DEBUG - Creating task for processing: 4.0.24.6_Readme.pdf
+2025-04-25 21:08:15,413 - lightrag_database - DEBUG - Creating task for processing: 4.0.24.7_Readme.pdf
+2025-04-25 21:08:15,414 - lightrag_database - DEBUG - Creating task for processing: 4.0.26.0_Readme.pdf
+2025-04-25 21:08:15,516 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.24.5_Readme.pdf
+2025-04-25 21:08:15,643 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.24.7_Readme.pdf
+2025-04-25 21:09:17,193 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.24.4_Readme.pdf
+2025-04-25 21:10:38,879 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.24.6_Readme.pdf
+2025-04-25 21:14:45,816 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.26.0_Readme.pdf
+2025-04-25 21:14:45,817 - lightrag_database - INFO - Processing PDF files: 16/156 (10.3%) - Elapsed: 41.35 minutes, Remaining: 6.03 hours, Speed: 0.01 items/sec - Processed: 4.0.24.4_Readme.pdf
+2025-04-25 21:14:45,817 - lightrag_database - INFO - Processing PDF files: 17/156 (10.9%) - Elapsed: 41.35 minutes, Remaining: 5.64 hours, Speed: 0.01 items/sec - Processed: 4.0.24.5_Readme.pdf
+2025-04-25 21:14:45,818 - lightrag_database - INFO - Processing PDF files: 18/156 (11.5%) - Elapsed: 41.35 minutes, Remaining: 5.28 hours, Speed: 0.01 items/sec - Processed: 4.0.24.6_Readme.pdf
+2025-04-25 21:14:45,818 - lightrag_database - INFO - Processing PDF files: 19/156 (12.2%) - Elapsed: 41.35 minutes, Remaining: 4.97 hours, Speed: 0.01 items/sec - Processed: 4.0.24.7_Readme.pdf
+2025-04-25 21:14:45,819 - lightrag_database - INFO - Processing PDF files: 20/156 (12.8%) - Elapsed: 41.35 minutes, Remaining: 4.69 hours, Speed: 0.01 items/sec - Processed: 4.0.26.0_Readme.pdf
+2025-04-25 21:14:45,819 - lightrag_database - DEBUG - Creating task for processing: 4.0.26.1_Readme.pdf
+2025-04-25 21:14:45,819 - lightrag_database - DEBUG - Creating task for processing: 4.0.26.2_Readme.pdf
+2025-04-25 21:14:45,820 - lightrag_database - DEBUG - Creating task for processing: 4.0.28.0_Readme.pdf
+2025-04-25 21:14:45,820 - lightrag_database - DEBUG - Creating task for processing: 4.0.28.1_Readme.pdf
+2025-04-25 21:14:45,821 - lightrag_database - DEBUG - Creating task for processing: 4.0.30.0_Readme.pdf
+2025-04-25 21:14:45,841 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.26.1_Readme.pdf
+2025-04-25 21:15:24,537 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.26.2_Readme.pdf
+2025-04-25 21:15:55,792 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.28.1_Readme.pdf
+2025-04-25 21:17:50,870 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.28.0_Readme.pdf
+2025-04-25 21:18:59,408 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.30.0_Readme.pdf
+2025-04-25 21:18:59,409 - lightrag_database - INFO - Processing PDF files: 21/156 (13.5%) - Elapsed: 45.58 minutes, Remaining: 4.88 hours, Speed: 0.01 items/sec - Processed: 4.0.26.1_Readme.pdf
+2025-04-25 21:18:59,409 - lightrag_database - INFO - Processing PDF files: 22/156 (14.1%) - Elapsed: 45.58 minutes, Remaining: 4.63 hours, Speed: 0.01 items/sec - Processed: 4.0.26.2_Readme.pdf
+2025-04-25 21:18:59,410 - lightrag_database - INFO - Processing PDF files: 23/156 (14.7%) - Elapsed: 45.58 minutes, Remaining: 4.39 hours, Speed: 0.01 items/sec - Processed: 4.0.28.0_Readme.pdf
+2025-04-25 21:18:59,410 - lightrag_database - INFO - Processing PDF files: 24/156 (15.4%) - Elapsed: 45.58 minutes, Remaining: 4.18 hours, Speed: 0.01 items/sec - Processed: 4.0.28.1_Readme.pdf
+2025-04-25 21:18:59,410 - lightrag_database - INFO - Processing PDF files: 25/156 (16.0%) - Elapsed: 45.58 minutes, Remaining: 3.98 hours, Speed: 0.01 items/sec - Processed: 4.0.30.0_Readme.pdf
+2025-04-25 21:18:59,411 - lightrag_database - DEBUG - Creating task for processing: 4.0.32.0_Readme.pdf
+2025-04-25 21:18:59,411 - lightrag_database - DEBUG - Creating task for processing: 4.0.34.0_Readme.pdf
+2025-04-25 21:18:59,412 - lightrag_database - DEBUG - Creating task for processing: 4.0.34.1_Readme.pdf
+2025-04-25 21:18:59,412 - lightrag_database - DEBUG - Creating task for processing: 4.0.34.2_Readme.pdf
+2025-04-25 21:18:59,412 - lightrag_database - DEBUG - Creating task for processing: 4.0.36.0_Readme.pdf
+2025-04-25 21:18:59,757 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.34.2_Readme.pdf
+2025-04-25 21:19:44,848 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.36.0_Readme.pdf
+2025-04-25 21:22:03,363 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.32.0_Readme.pdf
+2025-04-25 21:22:51,298 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.34.0_Readme.pdf
+2025-04-25 21:24:07,576 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.34.1_Readme.pdf
+2025-04-25 21:24:07,577 - lightrag_database - INFO - Processing PDF files: 26/156 (16.7%) - Elapsed: 50.71 minutes, Remaining: 4.23 hours, Speed: 0.01 items/sec - Processed: 4.0.32.0_Readme.pdf
+2025-04-25 21:24:07,578 - lightrag_database - INFO - Processing PDF files: 27/156 (17.3%) - Elapsed: 50.71 minutes, Remaining: 4.04 hours, Speed: 0.01 items/sec - Processed: 4.0.34.0_Readme.pdf
+2025-04-25 21:24:07,579 - lightrag_database - INFO - Processing PDF files: 28/156 (17.9%) - Elapsed: 50.71 minutes, Remaining: 3.86 hours, Speed: 0.01 items/sec - Processed: 4.0.34.1_Readme.pdf
+2025-04-25 21:24:07,580 - lightrag_database - INFO - Processing PDF files: 29/156 (18.6%) - Elapsed: 50.71 minutes, Remaining: 3.70 hours, Speed: 0.01 items/sec - Processed: 4.0.34.2_Readme.pdf
+2025-04-25 21:24:07,580 - lightrag_database - INFO - Processing PDF files: 30/156 (19.2%) - Elapsed: 50.71 minutes, Remaining: 3.55 hours, Speed: 0.01 items/sec - Processed: 4.0.36.0_Readme.pdf
+2025-04-25 21:24:07,581 - lightrag_database - DEBUG - Creating task for processing: 4.0.36.1_Readme.pdf
+2025-04-25 21:24:07,582 - lightrag_database - DEBUG - Creating task for processing: 4.0.36.2_Readme.pdf
+2025-04-25 21:24:07,582 - lightrag_database - DEBUG - Creating task for processing: 4.0.38.0_Readme.pdf
+2025-04-25 21:24:07,582 - lightrag_database - DEBUG - Creating task for processing: 4.0.38.1_Readme.pdf
+2025-04-25 21:24:07,582 - lightrag_database - DEBUG - Creating task for processing: 4.0.38.2_Readme.pdf
+2025-04-25 21:24:07,596 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.36.1_Readme.pdf
+2025-04-25 21:25:14,614 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.38.1_Readme.pdf
+2025-04-25 21:25:16,287 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.36.2_Readme.pdf
+2025-04-25 21:26:02,872 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.38.2_Readme.pdf
+2025-04-25 21:29:12,504 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.38.0_Readme.pdf
+2025-04-25 21:29:12,505 - lightrag_database - INFO - Processing PDF files: 31/156 (19.9%) - Elapsed: 55.80 minutes, Remaining: 3.75 hours, Speed: 0.01 items/sec - Processed: 4.0.36.1_Readme.pdf
+2025-04-25 21:29:12,506 - lightrag_database - INFO - Processing PDF files: 32/156 (20.5%) - Elapsed: 55.80 minutes, Remaining: 3.60 hours, Speed: 0.01 items/sec - Processed: 4.0.36.2_Readme.pdf
+2025-04-25 21:29:12,506 - lightrag_database - INFO - Processing PDF files: 33/156 (21.2%) - Elapsed: 55.80 minutes, Remaining: 3.47 hours, Speed: 0.01 items/sec - Processed: 4.0.38.0_Readme.pdf
+2025-04-25 21:29:12,507 - lightrag_database - INFO - Processing PDF files: 34/156 (21.8%) - Elapsed: 55.80 minutes, Remaining: 3.34 hours, Speed: 0.01 items/sec - Processed: 4.0.38.1_Readme.pdf
+2025-04-25 21:29:12,508 - lightrag_database - INFO - Processing PDF files: 35/156 (22.4%) - Elapsed: 55.80 minutes, Remaining: 3.21 hours, Speed: 0.01 items/sec - Processed: 4.0.38.2_Readme.pdf
+2025-04-25 21:29:12,508 - lightrag_database - DEBUG - Creating task for processing: 4.0.38.3_Readme.pdf
+2025-04-25 21:29:12,508 - lightrag_database - DEBUG - Creating task for processing: 4.0.40.0_Readme.pdf
+2025-04-25 21:29:12,509 - lightrag_database - DEBUG - Creating task for processing: 4.0.40.1_Readme.pdf
+2025-04-25 21:29:12,509 - lightrag_database - DEBUG - Creating task for processing: 4.0.40.2_Readme.pdf
+2025-04-25 21:29:12,510 - lightrag_database - DEBUG - Creating task for processing: 4.0.42.0_Readme.pdf
+2025-04-25 21:29:12,539 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.38.3_Readme.pdf
+2025-04-25 21:30:46,281 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.40.2_Readme.pdf
+2025-04-25 21:30:59,620 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.40.1_Readme.pdf
+2025-04-25 21:31:54,061 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.42.0_Readme.pdf
+2025-04-25 21:34:14,721 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.40.0_Readme.pdf
+2025-04-25 21:34:14,721 - lightrag_database - INFO - Processing PDF files: 36/156 (23.1%) - Elapsed: 1.01 hours, Remaining: 3.38 hours, Speed: 0.01 items/sec - Processed: 4.0.38.3_Readme.pdf
+2025-04-25 21:34:14,722 - lightrag_database - INFO - Processing PDF files: 37/156 (23.7%) - Elapsed: 1.01 hours, Remaining: 3.26 hours, Speed: 0.01 items/sec - Processed: 4.0.40.0_Readme.pdf
+2025-04-25 21:34:14,722 - lightrag_database - INFO - Processing PDF files: 38/156 (24.4%) - Elapsed: 1.01 hours, Remaining: 3.15 hours, Speed: 0.01 items/sec - Processed: 4.0.40.1_Readme.pdf
+2025-04-25 21:34:14,723 - lightrag_database - INFO - Processing PDF files: 39/156 (25.0%) - Elapsed: 1.01 hours, Remaining: 3.04 hours, Speed: 0.01 items/sec - Processed: 4.0.40.2_Readme.pdf
+2025-04-25 21:34:14,723 - lightrag_database - INFO - Processing PDF files: 40/156 (25.6%) - Elapsed: 1.01 hours, Remaining: 2.94 hours, Speed: 0.01 items/sec - Processed: 4.0.42.0_Readme.pdf
+2025-04-25 21:34:14,724 - lightrag_database - DEBUG - Creating task for processing: 4.0.42.1_Readme.pdf
+2025-04-25 21:34:14,724 - lightrag_database - DEBUG - Creating task for processing: 4.0.44.0_Readme.pdf
+2025-04-25 21:34:14,724 - lightrag_database - DEBUG - Creating task for processing: 4.0.44.1_Readme.pdf
+2025-04-25 21:34:14,725 - lightrag_database - DEBUG - Creating task for processing: 4.0.46.0_Readme.pdf
+2025-04-25 21:34:14,725 - lightrag_database - DEBUG - Creating task for processing: 4.0.46.1_Readme.pdf
+2025-04-25 21:34:34,814 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.46.1_Readme.pdf
+2025-04-25 21:35:01,833 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.42.1_Readme.pdf
+2025-04-25 21:36:20,321 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.44.1_Readme.pdf
+2025-04-25 21:36:42,660 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.46.0_Readme.pdf
+2025-04-25 21:37:07,723 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.0.44.0_Readme.pdf
+2025-04-25 21:37:07,724 - lightrag_database - INFO - Processing PDF files: 41/156 (26.3%) - Elapsed: 1.06 hours, Remaining: 2.98 hours, Speed: 0.01 items/sec - Processed: 4.0.42.1_Readme.pdf
+2025-04-25 21:37:07,724 - lightrag_database - INFO - Processing PDF files: 42/156 (26.9%) - Elapsed: 1.06 hours, Remaining: 2.88 hours, Speed: 0.01 items/sec - Processed: 4.0.44.0_Readme.pdf
+2025-04-25 21:37:07,725 - lightrag_database - INFO - Processing PDF files: 43/156 (27.6%) - Elapsed: 1.06 hours, Remaining: 2.79 hours, Speed: 0.01 items/sec - Processed: 4.0.44.1_Readme.pdf
+2025-04-25 21:37:07,725 - lightrag_database - INFO - Processing PDF files: 44/156 (28.2%) - Elapsed: 1.06 hours, Remaining: 2.70 hours, Speed: 0.01 items/sec - Processed: 4.0.46.0_Readme.pdf
+2025-04-25 21:37:07,726 - lightrag_database - INFO - Processing PDF files: 45/156 (28.8%) - Elapsed: 1.06 hours, Remaining: 2.62 hours, Speed: 0.01 items/sec - Processed: 4.0.46.1_Readme.pdf
+2025-04-25 21:37:07,726 - lightrag_database - DEBUG - Creating task for processing: 4.10.10.0_Readme.pdf
+2025-04-25 21:37:07,726 - lightrag_database - DEBUG - Creating task for processing: 4.10.14.0_Readme.pdf
+2025-04-25 21:37:07,727 - lightrag_database - DEBUG - Creating task for processing: 4.10.18.0_Readme.pdf
+2025-04-25 21:37:07,727 - lightrag_database - DEBUG - Creating task for processing: 4.10.2.0_Readme.pdf
+2025-04-25 21:37:07,727 - lightrag_database - DEBUG - Creating task for processing: 4.10.4.0_Readme.pdf
+2025-04-25 21:37:07,853 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.10.18.0_Readme.pdf
+2025-04-25 21:37:41,310 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.10.14.0_Readme.pdf
+2025-04-25 21:38:45,508 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.10.10.0_Readme.pdf
+2025-04-25 21:43:06,872 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.10.4.0_Readme.pdf
+2025-04-25 21:45:00,455 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.10.2.0_Readme.pdf
+2025-04-25 21:45:00,456 - lightrag_database - INFO - Processing PDF files: 46/156 (29.5%) - Elapsed: 1.19 hours, Remaining: 2.85 hours, Speed: 0.01 items/sec - Processed: 4.10.10.0_Readme.pdf
+2025-04-25 21:45:00,456 - lightrag_database - INFO - Processing PDF files: 47/156 (30.1%) - Elapsed: 1.19 hours, Remaining: 2.77 hours, Speed: 0.01 items/sec - Processed: 4.10.14.0_Readme.pdf
+2025-04-25 21:45:00,457 - lightrag_database - INFO - Processing PDF files: 48/156 (30.8%) - Elapsed: 1.19 hours, Remaining: 2.68 hours, Speed: 0.01 items/sec - Processed: 4.10.18.0_Readme.pdf
+2025-04-25 21:45:00,457 - lightrag_database - INFO - Processing PDF files: 49/156 (31.4%) - Elapsed: 1.19 hours, Remaining: 2.61 hours, Speed: 0.01 items/sec - Processed: 4.10.2.0_Readme.pdf
+2025-04-25 21:45:00,458 - lightrag_database - INFO - Processing PDF files: 50/156 (32.1%) - Elapsed: 1.19 hours, Remaining: 2.53 hours, Speed: 0.01 items/sec - Processed: 4.10.4.0_Readme.pdf
+2025-04-25 21:45:00,458 - lightrag_database - DEBUG - Creating task for processing: 4.10.4.1_Readme.pdf
+2025-04-25 21:45:00,458 - lightrag_database - DEBUG - Creating task for processing: 4.10.4.3_Readme.pdf
+2025-04-25 21:45:00,459 - lightrag_database - DEBUG - Creating task for processing: 4.10.6.0_Readme.pdf
+2025-04-25 21:45:00,459 - lightrag_database - DEBUG - Creating task for processing: 4.10.8.0_Readme.pdf
+2025-04-25 21:45:00,460 - lightrag_database - DEBUG - Creating task for processing: 4.4.0.0_Readme.pdf
+2025-04-25 21:45:48,568 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.10.4.3_Readme.pdf
+2025-04-25 21:48:01,183 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.10.4.1_Readme.pdf
+2025-04-25 21:50:35,908 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.10.8.0_Readme.pdf
+2025-04-25 21:50:47,524 - lightrag_database - INFO - Successfully moved processed file to: processed-entersoft-docs\4.10.6.0_Readme.pdf

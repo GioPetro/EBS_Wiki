@@ -1,0 +1,9 @@
+2025-04-25 22:24:49,819 - lightrag_database - INFO - Starting database build process
+2025-04-25 22:24:49,819 - lightrag_database - INFO - Initializing LightRAG in ./lightrag_data
+2025-04-25 22:24:51,290 - lightrag_database - INFO - Initializing LightRAG storages
+2025-04-25 22:24:51,426 - lightrag_database - INFO - LightRAG initialized successfully in ./lightrag_data
+2025-04-25 22:24:51,427 - lightrag_database - INFO - Processing PDF files in test_pdfs (including subdirectories)
+2025-04-25 22:24:51,428 - lightrag_database - INFO - Finding PDF files in test_pdfs (recursive=True)
+2025-04-25 22:24:51,430 - lightrag_database - INFO - Found 12 PDF files
+2025-04-25 22:24:51,431 - lightrag_database - INFO - Found 12 unprocessed files out of 12 total files
+2025-04-25 22:24:51,432 - lightrag_database - INFO - Using concurrency limit of 5 for PDF processing

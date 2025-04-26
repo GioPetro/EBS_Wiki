@@ -1,0 +1,11 @@
+2025-04-25 14:36:38,949 - lightrag_database - INFO - Starting database build process
+2025-04-25 14:36:38,949 - lightrag_database - INFO - Initializing LightRAG in ./lightrag_data
+2025-04-25 14:36:40,132 - lightrag_database - INFO - Initializing LightRAG storages
+2025-04-25 14:36:40,149 - lightrag_database - INFO - LightRAG initialized successfully in ./lightrag_data
+2025-04-25 14:36:40,150 - lightrag_database - INFO - Processing PDF files in test_pdfs (including subdirectories)
+2025-04-25 14:36:40,151 - lightrag_database - INFO - Finding PDF files in test_pdfs (recursive=True)
+2025-04-25 14:36:40,157 - lightrag_database - INFO - Found 3 PDF files
+2025-04-25 14:36:40,158 - lightrag_database - INFO - Skipping already processed file: 4.0.14.1_Readme.pdf
+2025-04-25 14:36:40,159 - lightrag_database - INFO - Found 2 unprocessed files out of 3 total files
+2025-04-25 14:36:40,159 - lightrag_database - INFO - Using concurrency limit of 5 for PDF processing
+2025-04-25 14:40:48,710 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\4.0.16.0_Readme.pdf

@@ -1,0 +1,362 @@
+2025-04-25 23:33:42,691 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\CRM MarketingTradePromotionsEN.pdf
+2025-04-25 23:33:42,711 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 23:33:42,722 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 23:33:42,731 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 23:33:42,740 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 23:33:42,748 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 23:33:42,757 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 23:33:42,763 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 23:33:42,770 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 23:33:42,778 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p9_img1.png
+2025-04-25 23:33:42,789 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p10_img1.png
+2025-04-25 23:33:42,795 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p11_img1.png
+2025-04-25 23:33:42,800 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p12_img1.png
+2025-04-25 23:33:42,806 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\CRM v4-ABCClassificationEN.pdf
+2025-04-25 23:33:42,819 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 23:33:42,827 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 23:33:42,835 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 23:33:42,842 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 23:33:42,850 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 23:33:42,902 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\CRM v4-ActivityMgtEL.pdf
+2025-04-25 23:33:42,928 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 23:33:42,945 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 23:33:42,957 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 23:33:42,960 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\CRM v4-ContactMgtEL.pdf
+2025-04-25 23:33:42,985 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 23:33:42,998 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 23:33:43,008 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 23:33:43,018 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\CRM v4-MarketingCampaignsEN.pdf
+2025-04-25 23:33:43,035 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 23:33:43,049 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 23:33:43,065 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 23:33:43,158 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 3.92 KB)
+2025-04-25 23:33:43,159 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,165 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 29.38 KB)
+2025-04-25 23:33:43,165 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,169 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.59 KB)
+2025-04-25 23:33:43,169 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,172 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.78 KB)
+2025-04-25 23:33:43,173 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,176 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 20.52 KB)
+2025-04-25 23:33:43,176 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,179 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.72 KB)
+2025-04-25 23:33:43,180 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,187 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.42 KB)
+2025-04-25 23:33:43,189 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,194 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 23:33:43,194 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,197 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.03 KB)
+2025-04-25 23:33:43,199 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,202 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 23:33:43,202 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,206 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.87 KB)
+2025-04-25 23:33:43,206 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,209 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 23:33:43,211 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,218 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.77 KB)
+2025-04-25 23:33:43,220 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,223 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 23:33:43,224 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,228 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.89 KB)
+2025-04-25 23:33:43,230 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,250 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 23:33:43,253 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,306 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.89 KB)
+2025-04-25 23:33:43,308 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,314 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 23:33:43,315 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,321 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.68 KB)
+2025-04-25 23:33:43,323 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,325 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.74 KB)
+2025-04-25 23:33:43,327 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,332 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.85 KB)
+2025-04-25 23:33:43,333 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,336 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.54 KB)
+2025-04-25 23:33:43,340 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,344 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.66 KB)
+2025-04-25 23:33:43,345 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,348 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.66 KB)
+2025-04-25 23:33:43,349 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,353 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.54 KB)
+2025-04-25 23:33:43,354 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,360 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.54 KB)
+2025-04-25 23:33:43,360 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,362 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.66 KB)
+2025-04-25 23:33:43,363 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,367 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.66 KB)
+2025-04-25 23:33:43,368 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,370 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.54 KB)
+2025-04-25 23:33:43,372 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,375 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.83 KB)
+2025-04-25 23:33:43,376 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,380 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.42 KB)
+2025-04-25 23:33:43,381 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,386 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.58 KB)
+2025-04-25 23:33:43,388 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,391 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.28 KB)
+2025-04-25 23:33:43,392 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,395 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.58 KB)
+2025-04-25 23:33:43,395 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,397 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.31 KB)
+2025-04-25 23:33:43,399 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,402 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.28 KB)
+2025-04-25 23:33:43,403 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,405 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.58 KB)
+2025-04-25 23:33:43,409 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,412 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.31 KB)
+2025-04-25 23:33:43,413 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,417 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.31 KB)
+2025-04-25 23:33:43,417 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,421 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.45 KB)
+2025-04-25 23:33:43,421 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,424 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.37 KB)
+2025-04-25 23:33:43,424 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:43,432 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.30 KB)
+2025-04-25 23:33:43,432 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:45,573 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.34 seconds
+2025-04-25 23:33:45,575 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.35 seconds
+2025-04-25 23:33:45,776 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.44 seconds
+2025-04-25 23:33:45,778 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.44 seconds
+2025-04-25 23:33:45,782 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.39 seconds
+2025-04-25 23:33:45,785 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.39 seconds
+2025-04-25 23:33:45,814 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.59 seconds
+2025-04-25 23:33:45,818 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.60 seconds
+2025-04-25 23:33:45,839 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.66 seconds
+2025-04-25 23:33:45,840 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.66 seconds
+2025-04-25 23:33:45,848 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.65 seconds
+2025-04-25 23:33:45,851 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.66 seconds
+2025-04-25 23:33:45,886 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.56 seconds
+2025-04-25 23:33:45,889 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.57 seconds
+2025-04-25 23:33:45,909 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.58 seconds
+2025-04-25 23:33:45,915 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.58 seconds
+2025-04-25 23:33:45,923 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.53 seconds
+2025-04-25 23:33:45,923 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.53 seconds
+2025-04-25 23:33:45,940 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.72 seconds
+2025-04-25 23:33:45,941 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.72 seconds
+2025-04-25 23:33:45,958 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.64 seconds
+2025-04-25 23:33:45,959 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.64 seconds
+2025-04-25 23:33:45,998 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.65 seconds
+2025-04-25 23:33:45,999 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.65 seconds
+2025-04-25 23:33:46,009 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.80 seconds
+2025-04-25 23:33:46,010 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.80 seconds
+2025-04-25 23:33:46,024 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.60 seconds
+2025-04-25 23:33:46,025 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.60 seconds
+2025-04-25 23:33:46,122 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.77 seconds
+2025-04-25 23:33:46,123 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.77 seconds
+2025-04-25 23:33:46,124 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.80 seconds
+2025-04-25 23:33:46,125 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.80 seconds
+2025-04-25 23:33:46,140 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.72 seconds
+2025-04-25 23:33:46,141 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.72 seconds
+2025-04-25 23:33:46,146 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.76 seconds
+2025-04-25 23:33:46,147 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.77 seconds
+2025-04-25 23:33:46,148 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.80 seconds
+2025-04-25 23:33:46,150 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.80 seconds
+2025-04-25 23:33:46,179 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.82 seconds
+2025-04-25 23:33:46,179 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.82 seconds
+2025-04-25 23:33:46,341 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.18 seconds
+2025-04-25 23:33:46,341 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.18 seconds
+2025-04-25 23:33:46,362 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.98 seconds
+2025-04-25 23:33:46,362 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.99 seconds
+2025-04-25 23:33:46,462 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.10 seconds
+2025-04-25 23:33:46,462 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.10 seconds
+2025-04-25 23:33:46,562 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.37 seconds
+2025-04-25 23:33:46,562 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.37 seconds
+2025-04-25 23:33:46,565 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.15 seconds
+2025-04-25 23:33:46,565 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.16 seconds
+2025-04-25 23:33:46,573 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.36 seconds
+2025-04-25 23:33:46,573 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.36 seconds
+2025-04-25 23:33:46,634 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.23 seconds
+2025-04-25 23:33:46,635 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.23 seconds
+2025-04-25 23:33:46,703 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.39 seconds
+2025-04-25 23:33:46,704 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.40 seconds
+2025-04-25 23:33:46,772 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.57 seconds
+2025-04-25 23:33:46,772 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.58 seconds
+2025-04-25 23:33:46,878 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.51 seconds
+2025-04-25 23:33:46,879 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.51 seconds
+2025-04-25 23:33:46,888 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.72 seconds
+2025-04-25 23:33:46,889 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.72 seconds
+2025-04-25 23:33:47,039 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.65 seconds
+2025-04-25 23:33:47,040 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.65 seconds
+2025-04-25 23:33:47,230 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.82 seconds
+2025-04-25 23:33:47,231 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.82 seconds
+2025-04-25 23:33:47,402 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 4.20 seconds
+2025-04-25 23:33:47,402 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 4.20 seconds
+2025-04-25 23:33:47,913 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 4.74 seconds
+2025-04-25 23:33:47,913 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 4.74 seconds
+2025-04-25 23:33:47,918 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 23:33:47,956 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 31.91 KB)
+2025-04-25 23:33:47,956 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:47,959 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 38.73 KB)
+2025-04-25 23:33:47,959 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:47,963 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 116.56 KB)
+2025-04-25 23:33:47,964 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:48,200 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 4.77 seconds
+2025-04-25 23:33:48,201 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 4.77 seconds
+2025-04-25 23:33:48,217 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 4.79 seconds
+2025-04-25 23:33:48,218 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 4.80 seconds
+2025-04-25 23:33:48,233 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.06 seconds
+2025-04-25 23:33:48,233 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.06 seconds
+2025-04-25 23:33:48,243 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 23:33:48,275 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.83 KB)
+2025-04-25 23:33:48,276 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:48,278 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.78 KB)
+2025-04-25 23:33:48,279 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:48,285 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 53.36 KB)
+2025-04-25 23:33:48,286 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:48,290 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 170.71 KB)
+2025-04-25 23:33:48,291 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:48,295 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.90 KB)
+2025-04-25 23:33:48,295 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:48,298 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 80.63 KB)
+2025-04-25 23:33:48,299 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:48,304 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 4.94 seconds
+2025-04-25 23:33:48,305 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 4.94 seconds
+2025-04-25 23:33:50,093 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 1.82 seconds
+2025-04-25 23:33:50,094 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 1.82 seconds
+2025-04-25 23:33:50,186 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.02 seconds
+2025-04-25 23:33:50,187 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.02 seconds
+2025-04-25 23:33:50,196 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 23:33:50,204 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 23:33:50,261 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.59 KB)
+2025-04-25 23:33:50,262 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:50,265 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 4.16 KB)
+2025-04-25 23:33:50,269 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:50,272 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 18.37 KB)
+2025-04-25 23:33:50,273 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:50,406 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.11 seconds
+2025-04-25 23:33:50,406 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.11 seconds
+2025-04-25 23:33:50,486 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 7.09 seconds
+2025-04-25 23:33:50,487 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 7.09 seconds
+2025-04-25 23:33:51,069 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.79 seconds
+2025-04-25 23:33:51,070 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.79 seconds
+2025-04-25 23:33:51,528 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.57 seconds
+2025-04-25 23:33:51,529 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.57 seconds
+2025-04-25 23:33:51,671 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.72 seconds
+2025-04-25 23:33:51,672 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.72 seconds
+2025-04-25 23:33:51,701 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 8.44 seconds
+2025-04-25 23:33:51,702 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 8.45 seconds
+2025-04-25 23:33:51,714 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 23:33:51,717 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.59 KB)
+2025-04-25 23:33:51,718 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:52,399 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.13 seconds
+2025-04-25 23:33:52,401 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.13 seconds
+2025-04-25 23:33:52,419 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 4.45 seconds
+2025-04-25 23:33:52,421 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 4.46 seconds
+2025-04-25 23:33:52,431 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 23:33:52,509 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 54.69 KB)
+2025-04-25 23:33:52,510 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:52,515 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 22.78 KB)
+2025-04-25 23:33:52,516 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:52,523 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.64 KB)
+2025-04-25 23:33:52,524 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:52,528 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.93 KB)
+2025-04-25 23:33:52,529 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:52,534 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.04 KB)
+2025-04-25 23:33:52,534 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:52,539 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.99 KB)
+2025-04-25 23:33:52,541 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:52,550 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.29 seconds
+2025-04-25 23:33:52,556 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.29 seconds
+2025-04-25 23:33:53,388 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.10 seconds
+2025-04-25 23:33:53,408 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.12 seconds
+2025-04-25 23:33:53,679 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 1.96 seconds
+2025-04-25 23:33:53,680 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 1.96 seconds
+2025-04-25 23:33:53,690 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 23:33:53,789 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 4.86 KB)
+2025-04-25 23:33:53,790 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:53,793 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 2.02 KB)
+2025-04-25 23:33:53,793 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:53,795 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 7.29 KB)
+2025-04-25 23:33:53,796 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:53,798 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 7.76 KB)
+2025-04-25 23:33:53,800 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:53,802 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 49.23 KB)
+2025-04-25 23:33:53,803 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:53,806 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.59 KB)
+2025-04-25 23:33:53,807 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:54,006 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.71 seconds
+2025-04-25 23:33:54,006 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.71 seconds
+2025-04-25 23:33:54,262 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.97 seconds
+2025-04-25 23:33:54,263 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.97 seconds
+2025-04-25 23:33:54,269 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 23:33:54,335 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.78 KB)
+2025-04-25 23:33:54,335 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:54,339 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.83 KB)
+2025-04-25 23:33:54,339 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:54,341 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 20.52 KB)
+2025-04-25 23:33:54,341 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:54,347 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 23.48 KB)
+2025-04-25 23:33:54,347 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:54,352 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 6.23 KB)
+2025-04-25 23:33:54,352 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:54,355 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 144.32 KB)
+2025-04-25 23:33:54,356 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:54,360 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 0.55 KB)
+2025-04-25 23:33:54,361 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:54,370 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 1.83 seconds
+2025-04-25 23:33:54,371 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 1.83 seconds
+2025-04-25 23:33:54,475 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 4.20 seconds
+2025-04-25 23:33:54,476 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 4.20 seconds
+2025-04-25 23:33:54,483 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 23:33:54,486 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 1.62 KB)
+2025-04-25 23:33:54,487 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:54,666 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.13 seconds
+2025-04-25 23:33:54,666 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.13 seconds
+2025-04-25 23:33:54,776 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.25 seconds
+2025-04-25 23:33:54,777 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.25 seconds
+2025-04-25 23:33:55,445 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.92 seconds
+2025-04-25 23:33:55,446 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.92 seconds
+2025-04-25 23:33:55,727 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 1.92 seconds
+2025-04-25 23:33:55,727 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 1.92 seconds
+2025-04-25 23:33:55,730 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 1.94 seconds
+2025-04-25 23:33:55,730 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 1.94 seconds
+2025-04-25 23:33:56,000 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.21 seconds
+2025-04-25 23:33:56,000 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.21 seconds
+2025-04-25 23:33:56,579 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.23 seconds
+2025-04-25 23:33:56,580 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.23 seconds
+2025-04-25 23:33:56,581 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.24 seconds
+2025-04-25 23:33:56,581 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.25 seconds
+2025-04-25 23:33:56,798 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.00 seconds
+2025-04-25 23:33:56,798 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.00 seconds
+2025-04-25 23:33:56,916 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.58 seconds
+2025-04-25 23:33:56,916 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.58 seconds
+2025-04-25 23:33:56,951 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.46 seconds
+2025-04-25 23:33:56,951 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.46 seconds
+2025-04-25 23:33:56,957 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p9_img1.png
+2025-04-25 23:33:57,067 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 7.89 KB)
+2025-04-25 23:33:57,068 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:57,070 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 94.73 KB)
+2025-04-25 23:33:57,071 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:57,079 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.72 seconds
+2025-04-25 23:33:57,079 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.72 seconds
+2025-04-25 23:33:57,082 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 4.56 seconds
+2025-04-25 23:33:57,082 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 4.57 seconds
+2025-04-25 23:33:57,624 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.28 seconds
+2025-04-25 23:33:57,625 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.28 seconds
+2025-04-25 23:33:58,298 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.96 seconds
+2025-04-25 23:33:58,298 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.96 seconds
+2025-04-25 23:33:59,048 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.25 seconds
+2025-04-25 23:33:59,048 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.25 seconds
+2025-04-25 23:33:59,938 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 5.58 seconds
+2025-04-25 23:33:59,939 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 5.58 seconds
+2025-04-25 23:33:59,946 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 23:33:59,991 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 15.05 KB)
+2025-04-25 23:33:59,991 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:59,993 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 2.63 KB)
+2025-04-25 23:33:59,994 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:33:59,996 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 13.63 KB)
+2025-04-25 23:33:59,997 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:34:00,000 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 18.72 KB)
+2025-04-25 23:34:00,000 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:34:00,004 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 2.08 KB)
+2025-04-25 23:34:00,004 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:34:00,011 - src.chattingwithcontext7.pdf_processor - INFO - Starting image analysis with openai model (image size: 55.61 KB)
+2025-04-25 23:34:00,012 - src.chattingwithcontext7.pdf_processor - INFO - Calling OpenAI API with model: gpt-4.1-nano
+2025-04-25 23:34:00,380 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 3.31 seconds
+2025-04-25 23:34:00,380 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 3.31 seconds
+2025-04-25 23:34:02,006 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.01 seconds
+2025-04-25 23:34:02,006 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.01 seconds
+2025-04-25 23:34:02,242 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.24 seconds
+2025-04-25 23:34:02,242 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.24 seconds
+2025-04-25 23:34:02,439 - src.chattingwithcontext7.pdf_processor - INFO - OpenAI API call completed in 2.45 seconds
+2025-04-25 23:34:02,439 - src.chattingwithcontext7.pdf_processor - INFO - Completed image analysis with openai model in 2.45 seconds

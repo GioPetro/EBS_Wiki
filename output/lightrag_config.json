@@ -1,0 +1,27 @@
+{
+  "input_dir": "./test_pdfs",
+  "output_dir": "./output",
+  "database_dir": "./lightrag_data",
+  "log_level": "DEBUG",
+  "processing": {
+    "chunk_size": 1000,
+    "chunk_overlap": 100,
+    "concurrency_limit": 5
+  },
+  "api": {
+    "gemini_api_key": "AIzaSyCOml0BdXpPyog9mJQlqo3-FYGGjCyC_og",
+    "openai_api_key": "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",
+    "claude_api_key": null,
+    "gemini_model": "gemini-2.0-flash",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_llm_model": "gpt-4o-mini",
+    "image_reader_model": "openai",
+    "image_handling": "plain-text"
+  },
+  "retry": {
+    "max_retries": 3,
+    "initial_delay": 1.0,
+    "max_delay": 60.0,
+    "backoff_factor": 2.0
+  }
+}

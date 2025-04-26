@@ -1,0 +1,7 @@
+2025-04-24 19:09:48,676 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF files in ./test_pdfs
+2025-04-24 19:09:48,679 - src.chattingwithcontext7.pdf_processor - INFO - Found 1 PDF files
+2025-04-24 19:09:48,679 - src.chattingwithcontext7.pdf_processor - INFO - Processing file 1/1: test_pdfs\4.0.12.1_Readme.pdf
+2025-04-24 19:09:48,680 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\4.0.12.1_Readme.pdf
+2025-04-24 19:09:48,692 - src.chattingwithcontext7.pdf_processor - INFO - Saved 1 LightRAG documents to ./output\lightrag\4.0.12.1_Readme_lightrag.json
+2025-04-24 19:09:48,696 - src.chattingwithcontext7.pdf_processor - INFO - Saved 1 LightRAG documents to ./output\lightrag\combined_lightrag.json
+2025-04-24 19:09:48,696 - src.chattingwithcontext7.pdf_processor - INFO - Saved processing statistics to ./output\processing_stats.json

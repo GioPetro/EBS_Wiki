@@ -1,0 +1,43 @@
+2025-04-25 14:45:39,708 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\4.0.14.0_Readme.pdf
+2025-04-25 14:45:39,732 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 14:45:39,748 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 14:45:39,756 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 14:45:39,765 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 14:46:25,464 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 14:47:07,858 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 14:47:37,649 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 14:48:30,678 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 14:49:03,977 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p9_img1.png
+2025-04-25 14:49:32,805 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p10_img1.png
+2025-04-25 14:49:58,784 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p11_img1.png
+2025-04-25 14:49:58,790 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p12_img1.png
+2025-04-25 14:51:01,808 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p13_img1.png
+2025-04-25 14:51:01,814 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p14_img1.png
+2025-04-25 14:51:01,825 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p15_img1.png
+2025-04-25 14:52:19,100 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p16_img1.png
+2025-04-25 14:53:08,334 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p17_img1.png
+2025-04-25 14:54:18,644 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p18_img1.png
+2025-04-25 14:55:04,227 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p19_img1.png
+2025-04-25 14:55:45,241 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p20_img1.png
+2025-04-25 14:56:30,485 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p21_img1.png
+2025-04-25 14:56:30,491 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p22_img1.png
+2025-04-25 14:57:08,856 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p23_img1.png
+2025-04-25 14:57:08,862 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p24_img1.png
+2025-04-25 14:57:34,863 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: Expecting value: line 51 column 21 (char 2208)
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 710, in _analyze_image_with_openai
+    result_dict = json.loads(json_str)
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 51 column 21 (char 2208)
+2025-04-25 14:58:15,136 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p25_img1.png
+2025-04-25 14:58:42,022 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p26_img1.png
+2025-04-25 14:58:42,029 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p27_img1.png
+2025-04-25 14:59:07,438 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p28_img1.png

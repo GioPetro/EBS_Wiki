@@ -1,0 +1,28 @@
+2025-04-25 14:45:37,526 - lightrag_database - INFO - Starting database build process
+2025-04-25 14:45:37,526 - lightrag_database - INFO - Initializing LightRAG in ./lightrag_data
+2025-04-25 14:45:39,689 - lightrag_database - INFO - Initializing LightRAG storages
+2025-04-25 14:45:39,704 - lightrag_database - INFO - LightRAG initialized successfully in ./lightrag_data
+2025-04-25 14:45:39,704 - lightrag_database - INFO - Processing PDF files in test_pdfs (including subdirectories)
+2025-04-25 14:45:39,705 - lightrag_database - INFO - Finding PDF files in test_pdfs (recursive=True)
+2025-04-25 14:45:39,706 - lightrag_database - INFO - Found 2 PDF files
+2025-04-25 14:45:39,706 - lightrag_database - INFO - Skipping already processed file: 4.0.14.1_Readme.pdf
+2025-04-25 14:45:39,707 - lightrag_database - INFO - Found 1 unprocessed files out of 2 total files
+2025-04-25 14:45:39,707 - lightrag_database - INFO - Using concurrency limit of 5 for PDF processing
+2025-04-25 14:59:42,982 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\4.0.14.0_Readme.pdf
+2025-04-25 14:59:42,983 - lightrag_database - INFO - Processing PDF files: 1/1 (100.0%) - Elapsed: 14.05 minutes, Remaining: 0.00 seconds, Speed: 0.00 items/sec - Processed: 4.0.14.0_Readme.pdf
+2025-04-25 14:59:42,992 - lightrag_database - INFO - Processed 1 documents with 147 chunks
+2025-04-25 14:59:42,992 - lightrag_database - INFO - Processing time: 843.28 seconds
+2025-04-25 14:59:42,992 - lightrag_database - INFO - LightRAG documents saved to ./output\combined_lightrag.json
+2025-04-25 14:59:42,993 - lightrag_database - INFO - Loading documents into LightRAG from ./output\combined_lightrag.json
+2025-04-25 14:59:42,997 - lightrag_database - INFO - Loading documents into LightRAG: 1/147 (0.7%) - Elapsed: 0.00 seconds, Remaining: 0.00 seconds, Speed: 0.00 items/sec
+2025-04-25 15:13:28,203 - lightrag_database - INFO - Loading documents into LightRAG: 100/147 (68.0%) - Elapsed: 13.75 minutes, Remaining: 6.46 minutes, Speed: 0.12 items/sec
+2025-04-25 15:45:50,264 - lightrag_database - INFO - Loading documents into LightRAG: 147/147 (100.0%) - Elapsed: 46.12 minutes, Remaining: 0.00 seconds, Speed: 0.05 items/sec
+2025-04-25 15:46:28,216 - lightrag_database - INFO - Loaded 147 chunks into LightRAG
+2025-04-25 15:46:28,218 - lightrag_database - INFO - Saved database information to ./output\database_info.json
+2025-04-25 15:46:28,219 - lightrag_database - INFO - Database build complete. Information saved to ./output\database_info.json
+2025-04-25 15:46:28,219 - lightrag_database - INFO - Database directory: ./lightrag_data
+2025-04-25 15:46:28,219 - lightrag_database - INFO - Total documents: 1
+2025-04-25 15:46:28,220 - lightrag_database - INFO - Total chunks: 147
+2025-04-25 15:46:28,220 - lightrag_database - INFO - Files processed: 1
+2025-04-25 15:46:28,220 - lightrag_database - INFO - Files skipped (already processed): 1
+2025-04-25 15:46:28,220 - lightrag_database - INFO - Processed files directory: processed-test_pdfs

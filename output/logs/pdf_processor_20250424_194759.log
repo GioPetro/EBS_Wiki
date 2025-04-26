@@ -1,0 +1,22 @@
+2025-04-24 19:47:59,040 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF files in ./test_pdfs_multiple
+2025-04-24 19:47:59,041 - src.chattingwithcontext7.pdf_processor - INFO - Found 2 PDF files
+2025-04-24 19:47:59,041 - src.chattingwithcontext7.pdf_processor - INFO - Processing file 1/2: test_pdfs_multiple\4.0.12.1_Readme.pdf
+2025-04-24 19:47:59,042 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs_multiple\4.0.12.1_Readme.pdf
+2025-04-24 19:47:59,055 - src.chattingwithcontext7.pdf_processor - INFO - Saved 1 LightRAG documents to ./output\lightrag\4.0.12.1_Readme_lightrag.json
+2025-04-24 19:47:59,061 - src.chattingwithcontext7.pdf_processor - INFO - Processing file 2/2: test_pdfs_multiple\4.0.14.1_Readme.pdf
+2025-04-24 19:47:59,061 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs_multiple\4.0.14.1_Readme.pdf
+2025-04-24 19:47:59,087 - src.chattingwithcontext7.pdf_processor - ERROR - Error processing PDF test_pdfs_multiple\4.0.14.1_Readme.pdf: This event loop is already running
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 166, in process_pdf
+    segments, metadata = self.extract_text_and_images(pdf_path, doc_images_dir)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 242, in extract_text_and_images
+    analysis_result = loop.run_until_complete(self._analyze_image_with_gemini(base64_image))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+2025-04-24 19:47:59,106 - src.chattingwithcontext7.pdf_processor - INFO - Saved 1 LightRAG documents to ./output\lightrag\combined_lightrag.json
+2025-04-24 19:47:59,107 - src.chattingwithcontext7.pdf_processor - INFO - Saved processing statistics to ./output\processing_stats.json

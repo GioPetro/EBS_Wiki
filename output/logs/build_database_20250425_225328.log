@@ -1,0 +1,56 @@
+2025-04-25 22:53:29,093 - lightrag_database - INFO - Starting database build process
+2025-04-25 22:53:29,094 - lightrag_database - INFO - Initializing LightRAG in ./lightrag_data
+2025-04-25 22:53:30,887 - lightrag_database - INFO - Initializing LightRAG storages
+2025-04-25 22:53:31,044 - lightrag_database - INFO - LightRAG initialized successfully in ./lightrag_data
+2025-04-25 22:53:31,045 - lightrag_database - INFO - Processing PDF files in test_pdfs (including subdirectories)
+2025-04-25 22:53:31,045 - lightrag_database - INFO - Finding PDF files in test_pdfs (recursive=True)
+2025-04-25 22:53:31,056 - lightrag_database - INFO - Found 14 PDF files
+2025-04-25 22:53:31,057 - lightrag_database - INFO - Found 14 unprocessed files out of 14 total files
+2025-04-25 22:53:31,057 - lightrag_database - INFO - Using concurrency limit of 5 for PDF processing
+2025-04-25 22:53:31,058 - lightrag_database - DEBUG - Creating task for processing: CRM MarketingTradePromotionsEN.pdf
+2025-04-25 22:53:31,058 - lightrag_database - DEBUG - Creating task for processing: CRM v4-ABCClassificationEN.pdf
+2025-04-25 22:53:31,058 - lightrag_database - DEBUG - Creating task for processing: CRM v4-ActivityMgtEL.pdf
+2025-04-25 22:53:31,058 - lightrag_database - DEBUG - Creating task for processing: CRM v4-ContactMgtEL.pdf
+2025-04-25 22:53:31,058 - lightrag_database - DEBUG - Creating task for processing: CRM v4-MarketingCampaignsEN.pdf
+2025-04-25 22:53:31,264 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM MarketingTradePromotionsEN.pdf
+2025-04-25 22:54:11,400 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM v4-ABCClassificationEN.pdf
+2025-04-25 22:55:10,913 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM v4-MarketingCampaignsEN.pdf
+2025-04-25 22:55:58,560 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM v4-ActivityMgtEL.pdf
+2025-04-25 22:56:27,330 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM v4-ContactMgtEL.pdf
+2025-04-25 22:56:27,334 - lightrag_database - INFO - Processing PDF files: 1/14 (7.1%) - Elapsed: 2.94 minutes, Remaining: 38.19 minutes, Speed: 0.01 items/sec - Processed: CRM MarketingTradePromotionsEN.pdf
+2025-04-25 22:56:27,335 - lightrag_database - INFO - Processing PDF files: 2/14 (14.3%) - Elapsed: 2.94 minutes, Remaining: 17.63 minutes, Speed: 0.01 items/sec - Processed: CRM v4-ABCClassificationEN.pdf
+2025-04-25 22:56:27,336 - lightrag_database - INFO - Processing PDF files: 3/14 (21.4%) - Elapsed: 2.94 minutes, Remaining: 10.77 minutes, Speed: 0.02 items/sec - Processed: CRM v4-ActivityMgtEL.pdf
+2025-04-25 22:56:27,337 - lightrag_database - INFO - Processing PDF files: 4/14 (28.6%) - Elapsed: 2.94 minutes, Remaining: 7.34 minutes, Speed: 0.02 items/sec - Processed: CRM v4-ContactMgtEL.pdf
+2025-04-25 22:56:27,338 - lightrag_database - INFO - Processing PDF files: 5/14 (35.7%) - Elapsed: 2.94 minutes, Remaining: 5.29 minutes, Speed: 0.03 items/sec - Processed: CRM v4-MarketingCampaignsEN.pdf
+2025-04-25 22:56:27,338 - lightrag_database - DEBUG - Creating task for processing: CRM v4-MarketingSegmentationEN.pdf
+2025-04-25 22:56:27,339 - lightrag_database - DEBUG - Creating task for processing: CRM v4-PipelineQuotingEL.pdf
+2025-04-25 22:56:27,339 - lightrag_database - DEBUG - Creating task for processing: CRM-HomePages_EN.pdf
+2025-04-25 22:56:27,339 - lightrag_database - DEBUG - Creating task for processing: CRM-UserGuideEN.pdf
+2025-04-25 22:56:27,340 - lightrag_database - DEBUG - Creating task for processing: CRMSocial-UserGuideEN.pdf
+2025-04-25 22:59:22,685 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM v4-MarketingSegmentationEN.pdf
+2025-04-25 22:59:47,553 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM-HomePages_EN.pdf
+2025-04-25 23:00:34,153 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM v4-PipelineQuotingEL.pdf
+2025-04-25 23:02:16,001 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM-UserGuideEN.pdf
+2025-04-25 23:04:04,138 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRMSocial-UserGuideEN.pdf
+2025-04-25 23:04:04,138 - lightrag_database - INFO - Processing PDF files: 6/14 (42.9%) - Elapsed: 10.55 minutes, Remaining: 14.07 minutes, Speed: 0.01 items/sec - Processed: CRM v4-MarketingSegmentationEN.pdf
+2025-04-25 23:04:04,139 - lightrag_database - INFO - Processing PDF files: 7/14 (50.0%) - Elapsed: 10.55 minutes, Remaining: 10.55 minutes, Speed: 0.01 items/sec - Processed: CRM v4-PipelineQuotingEL.pdf
+2025-04-25 23:04:04,140 - lightrag_database - INFO - Processing PDF files: 8/14 (57.1%) - Elapsed: 10.55 minutes, Remaining: 7.91 minutes, Speed: 0.01 items/sec - Processed: CRM-HomePages_EN.pdf
+2025-04-25 23:04:04,140 - lightrag_database - INFO - Processing PDF files: 9/14 (64.3%) - Elapsed: 10.55 minutes, Remaining: 5.86 minutes, Speed: 0.01 items/sec - Processed: CRM-UserGuideEN.pdf
+2025-04-25 23:04:04,141 - lightrag_database - INFO - Processing PDF files: 10/14 (71.4%) - Elapsed: 10.55 minutes, Remaining: 4.22 minutes, Speed: 0.02 items/sec - Processed: CRMSocial-UserGuideEN.pdf
+2025-04-25 23:04:04,141 - lightrag_database - DEBUG - Creating task for processing: CRM_MarketingPromotionPrograms_EN.pdf
+2025-04-25 23:04:04,142 - lightrag_database - DEBUG - Creating task for processing: CRM_MarketingSurveyCampaigns_EN.pdf
+2025-04-25 23:04:04,142 - lightrag_database - DEBUG - Creating task for processing: CRM_Newsletters-UserGuideEN.pdf
+2025-04-25 23:04:04,143 - lightrag_database - DEBUG - Creating task for processing: CRM_TerritoryManagement_EN.pdf
+2025-04-25 23:05:23,327 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM_Newsletters-UserGuideEN.pdf
+2025-04-25 23:06:03,443 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM_MarketingPromotionPrograms_EN.pdf
+2025-04-25 23:06:10,907 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM_TerritoryManagement_EN.pdf
+2025-04-25 23:07:48,347 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM_MarketingSurveyCampaigns_EN.pdf
+2025-04-25 23:07:48,348 - lightrag_database - INFO - Processing PDF files: 11/14 (78.6%) - Elapsed: 14.29 minutes, Remaining: 3.90 minutes, Speed: 0.01 items/sec - Processed: CRM_MarketingPromotionPrograms_EN.pdf
+2025-04-25 23:07:48,348 - lightrag_database - INFO - Processing PDF files: 12/14 (85.7%) - Elapsed: 14.29 minutes, Remaining: 2.38 minutes, Speed: 0.01 items/sec - Processed: CRM_MarketingSurveyCampaigns_EN.pdf
+2025-04-25 23:07:48,349 - lightrag_database - INFO - Processing PDF files: 13/14 (92.9%) - Elapsed: 14.29 minutes, Remaining: 1.10 minutes, Speed: 0.02 items/sec - Processed: CRM_Newsletters-UserGuideEN.pdf
+2025-04-25 23:07:48,349 - lightrag_database - INFO - Processing PDF files: 14/14 (100.0%) - Elapsed: 14.29 minutes, Remaining: 0.00 seconds, Speed: 0.02 items/sec - Processed: CRM_TerritoryManagement_EN.pdf
+2025-04-25 23:07:48,459 - lightrag_database - INFO - Processed 14 documents with 2841 chunks
+2025-04-25 23:07:48,460 - lightrag_database - INFO - Processing time: 857.29 seconds
+2025-04-25 23:07:48,460 - lightrag_database - INFO - LightRAG documents saved to ./output\combined_lightrag.json
+2025-04-25 23:07:48,461 - lightrag_database - INFO - Loading documents into LightRAG from ./output\combined_lightrag.json
+2025-04-25 23:07:48,503 - lightrag_database - INFO - Loading documents into LightRAG: 1/2841 (0.0%) - Elapsed: 0.00 seconds, Remaining: 0.00 seconds, Speed: 0.00 items/sec

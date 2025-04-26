@@ -1,0 +1,13 @@
+{
+  "total_documents": 2,
+  "successful_documents": 2,
+  "failed_documents": 0,
+  "total_pages": 4,
+  "total_segments": 9,
+  "segments_by_type": {
+    "TEXT": 4,
+    "IMAGE": 5
+  },
+  "processing_time": 0.13554692268371582,
+  "errors": []
+}

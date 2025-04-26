@@ -1,0 +1,9 @@
+2025-04-25 02:50:07,224 - lightrag_database - INFO - Starting database build process
+2025-04-25 02:50:07,225 - lightrag_database - INFO - Initializing LightRAG in ./lightrag_data
+2025-04-25 02:50:08,113 - lightrag_database - INFO - Initializing LightRAG storages
+2025-04-25 02:50:08,122 - lightrag_database - INFO - LightRAG initialized successfully in ./lightrag_data
+2025-04-25 02:50:08,123 - lightrag_database - INFO - Processing PDF files in ./entersoft-docs (including subdirectories)
+2025-04-25 02:50:08,123 - lightrag_database - INFO - Finding PDF files in ./entersoft-docs (recursive=True)
+2025-04-25 02:50:08,126 - lightrag_database - INFO - Found 159 PDF files
+2025-04-25 02:50:08,126 - lightrag_database - INFO - Using concurrency limit of 1 for PDF processing
+2025-04-25 02:50:41,797 - lightrag_database - INFO - Processing PDF files: 1/159 (0.6%) - Elapsed: 33.67 seconds, Remaining: 1.48 hours, Speed: 0.03 items/sec - Processed: 4.0.10.0_Readme.pdf

@@ -1,0 +1,20 @@
+2025-04-25 13:34:09,018 - lightrag_database - INFO - Starting database build process
+2025-04-25 13:34:09,019 - lightrag_database - INFO - Initializing LightRAG in ./lightrag_data
+2025-04-25 13:34:09,845 - lightrag_database - INFO - Initializing LightRAG storages
+2025-04-25 13:34:09,857 - lightrag_database - INFO - LightRAG initialized successfully in ./lightrag_data
+2025-04-25 13:34:09,858 - lightrag_database - INFO - Processing PDF files in test_pdfs (including subdirectories)
+2025-04-25 13:34:09,859 - lightrag_database - INFO - Finding PDF files in test_pdfs (recursive=True)
+2025-04-25 13:34:09,866 - lightrag_database - INFO - Found 3 PDF files
+2025-04-25 13:34:09,867 - lightrag_database - INFO - Found 3 unprocessed files out of 3 total files
+2025-04-25 13:34:09,868 - lightrag_database - INFO - Using concurrency limit of 5 for PDF processing
+2025-04-25 13:48:58,981 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM v4-MarketingSegmentationEN.pdf
+2025-04-25 13:56:08,741 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM-HomePages_EN.pdf
+2025-04-25 14:19:42,963 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRMSocial-UserGuideEN.pdf
+2025-04-25 14:19:42,964 - lightrag_database - INFO - Processing PDF files: 1/3 (33.3%) - Elapsed: 45.55 minutes, Remaining: 1.52 hours, Speed: 0.00 items/sec - Processed: CRM v4-MarketingSegmentationEN.pdf
+2025-04-25 14:19:42,964 - lightrag_database - INFO - Processing PDF files: 2/3 (66.7%) - Elapsed: 45.55 minutes, Remaining: 22.78 minutes, Speed: 0.00 items/sec - Processed: CRM-HomePages_EN.pdf
+2025-04-25 14:19:42,965 - lightrag_database - INFO - Processing PDF files: 3/3 (100.0%) - Elapsed: 45.55 minutes, Remaining: 0.00 seconds, Speed: 0.00 items/sec - Processed: CRMSocial-UserGuideEN.pdf
+2025-04-25 14:19:43,035 - lightrag_database - INFO - Processed 3 documents with 1010 chunks
+2025-04-25 14:19:43,035 - lightrag_database - INFO - Processing time: 2733.10 seconds
+2025-04-25 14:19:43,035 - lightrag_database - INFO - LightRAG documents saved to ./output\combined_lightrag.json
+2025-04-25 14:19:43,036 - lightrag_database - INFO - Loading documents into LightRAG from ./output\combined_lightrag.json
+2025-04-25 14:19:43,082 - lightrag_database - INFO - Loading documents into LightRAG: 1/1010 (0.1%) - Elapsed: 0.00 seconds, Remaining: 0.00 seconds, Speed: 0.00 items/sec

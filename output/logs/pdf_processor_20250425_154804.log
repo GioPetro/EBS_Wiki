@@ -1,0 +1,89 @@
+2025-04-25 15:48:06,222 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: entersoft-docs\4.0.10.0_Readme.pdf
+2025-04-25 15:48:06,242 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 15:48:06,252 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 15:48:06,259 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 15:48:06,268 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 15:48:06,292 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: entersoft-docs\4.0.12.0_Readme.pdf
+2025-04-25 15:48:06,324 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 15:48:06,338 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 15:48:06,347 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 15:48:06,353 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 15:48:06,394 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: entersoft-docs\4.0.12.1_Readme.pdf
+2025-04-25 15:48:06,403 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: entersoft-docs\4.0.14.0_Readme.pdf
+2025-04-25 15:48:06,419 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 15:48:06,430 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 15:48:06,436 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 15:48:06,442 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 15:48:06,504 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: entersoft-docs\4.0.14.1_Readme.pdf
+2025-04-25 15:48:06,516 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 15:48:06,524 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 15:48:06,530 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 15:48:28,097 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 15:48:33,107 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 15:48:56,399 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 15:49:21,411 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 15:49:21,775 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 15:49:23,538 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 15:49:43,471 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 15:49:56,860 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 15:50:14,215 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p9_img1.png
+2025-04-25 15:50:17,470 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 15:50:17,476 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 15:50:17,484 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p9_img1.png
+2025-04-25 15:50:42,058 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p10_img1.png
+2025-04-25 15:50:42,064 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p11_img1.png
+2025-04-25 15:50:45,522 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p10_img1.png
+2025-04-25 15:50:52,044 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 15:51:11,737 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p12_img1.png
+2025-04-25 15:51:52,691 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 15:52:01,964 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p13_img1.png
+2025-04-25 15:52:27,376 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p14_img1.png
+2025-04-25 15:52:37,217 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p9_img1.png
+2025-04-25 15:52:45,989 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p15_img1.png
+2025-04-25 15:52:45,995 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p16_img1.png
+2025-04-25 15:53:12,233 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p10_img1.png
+2025-04-25 15:53:33,159 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p17_img1.png
+2025-04-25 15:53:36,475 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p11_img1.png
+2025-04-25 15:53:36,479 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p12_img1.png
+2025-04-25 15:54:12,335 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p18_img1.png
+2025-04-25 15:54:12,502 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: Expecting ':' delimiter: line 146 column 38 (char 7450)
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 710, in _analyze_image_with_openai
+    result_dict = json.loads(json_str)
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 146 column 38 (char 7450)
+2025-04-25 15:54:12,510 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p13_img1.png
+2025-04-25 15:54:12,517 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p14_img1.png
+2025-04-25 15:54:12,525 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p15_img1.png
+2025-04-25 15:54:39,101 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: Expecting ',' delimiter: line 140 column 9 (char 7085)
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 710, in _analyze_image_with_openai
+    result_dict = json.loads(json_str)
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 140 column 9 (char 7085)
+2025-04-25 15:54:39,109 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p16_img1.png
+2025-04-25 15:54:56,801 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p19_img1.png
+2025-04-25 15:55:10,876 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p17_img1.png
+2025-04-25 15:55:42,088 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p18_img1.png
+2025-04-25 15:55:44,985 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p20_img1.png
+2025-04-25 15:55:44,998 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p21_img1.png
+2025-04-25 15:56:32,820 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p22_img1.png
+2025-04-25 15:56:34,960 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p19_img1.png

@@ -1,0 +1,22 @@
+2025-04-25 01:47:47,041 - lightrag_database - INFO - Starting database build process
+2025-04-25 01:47:47,042 - lightrag_database - INFO - Initializing LightRAG in ./lightrag_data
+2025-04-25 01:47:48,022 - lightrag_database - INFO - Initializing LightRAG storages
+2025-04-25 01:47:48,029 - lightrag_database - INFO - LightRAG initialized successfully in ./lightrag_data
+2025-04-25 01:47:48,030 - lightrag_database - INFO - Processing PDF files in ./test_pdfs (including subdirectories)
+2025-04-25 01:47:48,030 - lightrag_database - INFO - Finding PDF files in ./test_pdfs (recursive=True)
+2025-04-25 01:47:48,033 - lightrag_database - INFO - Found 2 PDF files
+2025-04-25 01:47:48,033 - lightrag_database - INFO - Using concurrency limit of 5 for PDF processing
+2025-04-25 01:47:58,582 - lightrag_database - INFO - Processing PDF files: 1/2 (50.0%) - Elapsed: 10.55 seconds, Remaining: 10.55 seconds, Speed: 0.09 items/sec - Processed: 4.0.12.1_Readme.pdf
+2025-04-25 01:47:58,582 - lightrag_database - INFO - Processing PDF files: 2/2 (100.0%) - Elapsed: 10.55 seconds, Remaining: 0.00 seconds, Speed: 0.19 items/sec - Processed: 4.0.14.1_Readme.pdf
+2025-04-25 01:47:58,584 - lightrag_database - INFO - Processed 2 documents with 11 chunks
+2025-04-25 01:47:58,585 - lightrag_database - INFO - Processing time: 10.55 seconds
+2025-04-25 01:47:58,585 - lightrag_database - INFO - LightRAG documents saved to ./output\combined_lightrag.json
+2025-04-25 01:47:58,586 - lightrag_database - INFO - Loading documents into LightRAG from ./output\combined_lightrag.json
+2025-04-25 01:47:58,587 - lightrag_database - ERROR - Error inserting document 1 after retries: float division by zero
+2025-04-25 01:49:46,569 - lightrag_database - INFO - Loading documents into LightRAG: 11/11 (100.0%) - Elapsed: 1.80 minutes, Remaining: 0.00 seconds, Speed: 0.10 items/sec
+2025-04-25 01:50:13,762 - lightrag_database - INFO - Loaded 11 chunks into LightRAG
+2025-04-25 01:50:13,764 - lightrag_database - INFO - Saved database information to ./output\database_info.json
+2025-04-25 01:50:13,765 - lightrag_database - INFO - Database build complete. Information saved to ./output\database_info.json
+2025-04-25 01:50:13,767 - lightrag_database - INFO - Database directory: ./lightrag_data
+2025-04-25 01:50:13,767 - lightrag_database - INFO - Total documents: 2
+2025-04-25 01:50:13,768 - lightrag_database - INFO - Total chunks: 11

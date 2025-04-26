@@ -1,0 +1,64 @@
+2025-04-25 14:36:40,160 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\4.0.14.0_Readme.pdf
+2025-04-25 14:36:40,190 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 14:36:40,206 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 14:36:40,214 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 14:36:40,222 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 14:36:40,301 - src.chattingwithcontext7.pdf_processor - INFO - Processing PDF: test_pdfs\4.0.16.0_Readme.pdf
+2025-04-25 14:36:40,319 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p1_img1.png
+2025-04-25 14:36:40,332 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p2_img1.png
+2025-04-25 14:36:40,340 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p3_img1.png
+2025-04-25 14:36:40,349 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p4_img1.png
+2025-04-25 14:37:16,460 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 14:37:18,702 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p5_img1.png
+2025-04-25 14:37:32,642 - src.chattingwithcontext7.pdf_processor - WARNING - Error creating UIElement: 1 validation error for UIElement
+content
+  Input should be a valid string [type=string_type, input_value=['Sales Order Entry', 'Cr...', 'Payment Processing'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 14:37:40,097 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 14:37:59,825 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p6_img1.png
+2025-04-25 14:38:02,745 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 14:38:43,520 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 14:38:44,779 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p7_img1.png
+2025-04-25 14:39:09,533 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p9_img1.png
+2025-04-25 14:39:27,804 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p8_img1.png
+2025-04-25 14:39:40,945 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p10_img1.png
+2025-04-25 14:39:52,008 - src.chattingwithcontext7.pdf_processor - WARNING - Error creating UIElement: 1 validation error for UIElement
+content
+  Input should be a valid string [type=string_type, input_value=['=', '<>', '<', '<=', '>', '>=', '..< =..<='], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 14:40:00,631 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p11_img1.png
+2025-04-25 14:40:03,845 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p9_img1.png
+2025-04-25 14:40:27,728 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p12_img1.png
+2025-04-25 14:40:40,312 - src.chattingwithcontext7.pdf_processor - WARNING - Error creating UIElement: 1 validation error for UIElement
+content
+  Input should be a valid string [type=string_type, input_value=['Demo (120x *) [checked]...il (75 x 75) [checked]'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 14:40:40,324 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p10_img1.png
+2025-04-25 14:40:45,855 - src.chattingwithcontext7.pdf_processor - WARNING - Error creating UIElement: 1 validation error for UIElement
+content
+  Input should be a valid string [type=string_type, input_value=['4M-10000', '4L-10000C',... '4T-41000', '4S-45000'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-25 14:40:48,703 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p13_img1.png
+2025-04-25 14:41:01,251 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p11_img1.png
+2025-04-25 14:41:01,256 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p12_img1.png
+2025-04-25 14:41:32,944 - src.chattingwithcontext7.pdf_processor - ERROR - Error parsing OpenAI response: Expecting ':' delimiter: line 123 column 38 (char 7722)
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\AEGIS\Projects\EBSWikiChatbot2\src\chattingwithcontext7\pdf_processor.py", line 710, in _analyze_image_with_openai
+    result_dict = json.loads(json_str)
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\georg\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 123 column 38 (char 7722)
+2025-04-25 14:41:32,957 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p13_img1.png
+2025-04-25 14:41:32,965 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p14_img1.png
+2025-04-25 14:41:32,974 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p15_img1.png
+2025-04-25 14:42:17,295 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p16_img1.png
+2025-04-25 14:42:51,406 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p17_img1.png
+2025-04-25 14:43:22,912 - src.chattingwithcontext7.pdf_processor - INFO - Skipping analysis of likely logo/header image: p18_img1.png

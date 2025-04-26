@@ -1,0 +1,15 @@
+2025-04-25 23:33:40,513 - lightrag_database - INFO - Starting database build process
+2025-04-25 23:33:40,514 - lightrag_database - INFO - Initializing LightRAG in ./lightrag_data
+2025-04-25 23:33:42,514 - lightrag_database - INFO - Initializing LightRAG storages
+2025-04-25 23:33:42,685 - lightrag_database - INFO - LightRAG initialized successfully in ./lightrag_data
+2025-04-25 23:33:42,685 - lightrag_database - INFO - Processing PDF files in test_pdfs (including subdirectories)
+2025-04-25 23:33:42,686 - lightrag_database - INFO - Finding PDF files in test_pdfs (recursive=True)
+2025-04-25 23:33:42,687 - lightrag_database - INFO - Found 10 PDF files
+2025-04-25 23:33:42,688 - lightrag_database - INFO - Found 10 unprocessed files out of 10 total files
+2025-04-25 23:33:42,688 - lightrag_database - INFO - Using concurrency limit of 5 for PDF processing
+2025-04-25 23:33:42,688 - lightrag_database - DEBUG - Creating task for processing: CRM MarketingTradePromotionsEN.pdf
+2025-04-25 23:33:42,689 - lightrag_database - DEBUG - Creating task for processing: CRM v4-ABCClassificationEN.pdf
+2025-04-25 23:33:42,689 - lightrag_database - DEBUG - Creating task for processing: CRM v4-ActivityMgtEL.pdf
+2025-04-25 23:33:42,690 - lightrag_database - DEBUG - Creating task for processing: CRM v4-ContactMgtEL.pdf
+2025-04-25 23:33:42,690 - lightrag_database - DEBUG - Creating task for processing: CRM v4-MarketingCampaignsEN.pdf
+2025-04-25 23:33:42,805 - lightrag_database - INFO - Successfully moved processed file to: processed-test_pdfs\CRM MarketingTradePromotionsEN.pdf

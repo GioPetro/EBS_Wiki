@@ -1,0 +1,23 @@
+2025-04-25 17:21:29,822 - lightrag_database - INFO - Starting database build process
+2025-04-25 17:21:29,823 - lightrag_database - INFO - Initializing LightRAG in ./lightrag_data
+2025-04-25 17:21:31,037 - lightrag_database - INFO - Initializing LightRAG storages
+2025-04-25 17:21:31,099 - lightrag_database - INFO - LightRAG initialized successfully in ./lightrag_data
+2025-04-25 17:21:31,100 - lightrag_database - INFO - Processing PDF files in test_pdfs (including subdirectories)
+2025-04-25 17:21:31,100 - lightrag_database - INFO - Finding PDF files in test_pdfs (recursive=True)
+2025-04-25 17:21:31,105 - lightrag_database - INFO - Found 1 PDF files
+2025-04-25 17:21:31,106 - lightrag_database - INFO - Skipping already processed file: 4.0.14.1_Readme.pdf
+2025-04-25 17:21:31,106 - lightrag_database - INFO - Found 0 unprocessed files out of 1 total files
+2025-04-25 17:21:31,107 - lightrag_database - INFO - Using concurrency limit of 5 for PDF processing
+2025-04-25 17:21:31,110 - lightrag_database - INFO - Processed 0 documents with 0 chunks
+2025-04-25 17:21:31,111 - lightrag_database - INFO - Processing time: 0.00 seconds
+2025-04-25 17:21:31,113 - lightrag_database - INFO - LightRAG documents saved to ./output\combined_lightrag.json
+2025-04-25 17:21:31,113 - lightrag_database - INFO - Loading documents into LightRAG from ./output\combined_lightrag.json
+2025-04-25 17:21:31,114 - lightrag_database - INFO - Loaded 0 chunks into LightRAG
+2025-04-25 17:21:31,116 - lightrag_database - INFO - Saved database information to ./output\database_info.json
+2025-04-25 17:21:31,117 - lightrag_database - INFO - Database build complete. Information saved to ./output\database_info.json
+2025-04-25 17:21:31,117 - lightrag_database - INFO - Database directory: ./lightrag_data
+2025-04-25 17:21:31,118 - lightrag_database - INFO - Total documents: 0
+2025-04-25 17:21:31,119 - lightrag_database - INFO - Total chunks: 0
+2025-04-25 17:21:31,120 - lightrag_database - INFO - Files processed: 0
+2025-04-25 17:21:31,120 - lightrag_database - INFO - Files skipped (already processed): 1
+2025-04-25 17:21:31,120 - lightrag_database - INFO - Processed files directory: processed-test_pdfs

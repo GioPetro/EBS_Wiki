@@ -1,0 +1,29 @@
+2025-04-25 12:42:31,444 - lightrag_database - INFO - Starting database build process
+2025-04-25 12:42:31,445 - lightrag_database - INFO - Initializing LightRAG in ./lightrag_data
+2025-04-25 12:42:33,448 - lightrag_database - INFO - Initializing LightRAG storages
+2025-04-25 12:42:33,460 - lightrag_database - INFO - LightRAG initialized successfully in ./lightrag_data
+2025-04-25 12:42:33,461 - lightrag_database - INFO - Processing PDF files in ./test_pdfs (including subdirectories)
+2025-04-25 12:42:33,461 - lightrag_database - INFO - Finding PDF files in ./test_pdfs (recursive=True)
+2025-04-25 12:42:33,463 - lightrag_database - INFO - Found 9 PDF files
+2025-04-25 12:42:33,464 - lightrag_database - INFO - Found 9 unprocessed files out of 9 total files
+2025-04-25 12:42:33,465 - lightrag_database - INFO - Using concurrency limit of 5 for PDF processing
+2025-04-25 12:42:33,466 - lightrag_database - DEBUG - Creating task for processing: 4.0.12.1_Readme.pdf
+2025-04-25 12:42:33,467 - lightrag_database - DEBUG - Creating task for processing: 4.0.14.1_Readme.pdf
+2025-04-25 12:42:33,468 - lightrag_database - DEBUG - Creating task for processing: 4.4.2.0_Readme.pdf
+2025-04-25 12:42:33,468 - lightrag_database - DEBUG - Creating task for processing: 4.4.2.1_Readme.pdf
+2025-04-25 12:42:33,469 - lightrag_database - DEBUG - Creating task for processing: 4.4.2.2_Readme.pdf
+2025-04-25 12:42:33,528 - lightrag_database - INFO - Successfully moved processed file to: .\processed-test_pdfs\4.0.12.1_Readme.pdf
+2025-04-25 12:42:54,785 - lightrag_database - INFO - Successfully moved processed file to: .\processed-test_pdfs\4.0.14.1_Readme.pdf
+2025-04-25 12:43:13,147 - lightrag_database - INFO - Successfully moved processed file to: .\processed-test_pdfs\4.4.2.2_Readme.pdf
+2025-04-25 12:43:28,746 - lightrag_database - INFO - Successfully moved processed file to: .\processed-test_pdfs\4.4.2.1_Readme.pdf
+2025-04-25 12:45:04,173 - lightrag_database - INFO - Successfully moved processed file to: .\processed-test_pdfs\4.4.2.0_Readme.pdf
+2025-04-25 12:45:04,176 - lightrag_database - INFO - Processing PDF files: 1/9 (11.1%) - Elapsed: 2.51 minutes, Remaining: 20.09 minutes, Speed: 0.01 items/sec - Processed: 4.0.12.1_Readme.pdf
+2025-04-25 12:45:04,177 - lightrag_database - INFO - Processing PDF files: 2/9 (22.2%) - Elapsed: 2.51 minutes, Remaining: 8.79 minutes, Speed: 0.01 items/sec - Processed: 4.0.14.1_Readme.pdf
+2025-04-25 12:45:04,179 - lightrag_database - INFO - Processing PDF files: 3/9 (33.3%) - Elapsed: 2.51 minutes, Remaining: 5.02 minutes, Speed: 0.02 items/sec - Processed: 4.4.2.0_Readme.pdf
+2025-04-25 12:45:04,180 - lightrag_database - INFO - Processing PDF files: 4/9 (44.4%) - Elapsed: 2.51 minutes, Remaining: 3.14 minutes, Speed: 0.03 items/sec - Processed: 4.4.2.1_Readme.pdf
+2025-04-25 12:45:04,180 - lightrag_database - INFO - Processing PDF files: 5/9 (55.6%) - Elapsed: 2.51 minutes, Remaining: 2.01 minutes, Speed: 0.03 items/sec - Processed: 4.4.2.2_Readme.pdf
+2025-04-25 12:45:04,181 - lightrag_database - DEBUG - Creating task for processing: 4.4.2.3_Readme.pdf
+2025-04-25 12:45:04,181 - lightrag_database - DEBUG - Creating task for processing: CRM v4-MarketingSegmentationEN.pdf
+2025-04-25 12:45:04,181 - lightrag_database - DEBUG - Creating task for processing: CRM-HomePages_EN.pdf
+2025-04-25 12:45:04,181 - lightrag_database - DEBUG - Creating task for processing: CRMSocial-UserGuideEN.pdf
+2025-04-25 12:45:51,454 - lightrag_database - INFO - Successfully moved processed file to: .\processed-test_pdfs\4.4.2.3_Readme.pdf
