@@ -155,7 +155,7 @@ class LightRAGDatabaseQuerier:
             try:
                 # Query LightRAG
                 results = await context.deps.lightrag.aquery(
-                    search_query, param=QueryParam(mode="mix", top_k=7)
+                    search_query, param=QueryParam(mode="mix", top_k=10)
                 )
                 
                 # Format results
@@ -166,14 +166,94 @@ class LightRAGDatabaseQuerier:
                 if isinstance(results, str):
                     return f"Retrieved content:\n{results}"
                 
-                # Log detailed raw results for debugging (after validating results)
+                # Document-level version cache - stores version info by document ID
+                document_versions = {}
+                
+                # First pass: Extract version information from early pages (1-3)
+                # This implements the knowledge that version info is in first 3 pages
+                for result in results:
+                    if not isinstance(result, dict):
+                        continue
+                        
+                    metadata = result.get("metadata", {})
+                    if not isinstance(metadata, dict):
+                        continue
+                        
+                    # Get document identifiers
+                    document_id = metadata.get("document_id", "unknown")
+                    filename = metadata.get("filename", "Unknown Filename")
+                    page = metadata.get("page", "unknown")
+                    
+                    # Only process pages 1-3 for version detection
+                    try:
+                        page_num = int(page) if str(page).isdigit() else 999
+                    except:
+                        page_num = 999
+                        
+                    if page_num <= 3:
+                        # Extract version from early page content
+                        text = result.get('text', '')
+                        
+                        # Look for version patterns in text
+                        version_patterns = [
+                            r'version\s*(\d+(?:\.\d+)?)',
+                            r'v(\d+(?:\.\d+)?)\s',
+                            r'CRM\s*®?\s*(\d+(?:\.\d+)?)',
+                            r'ERP\s*®?\s*(\d+(?:\.\d+)?)',
+                        ]
+                        
+                        extracted_version = None
+                        for pattern in version_patterns:
+                            match = re.search(pattern, text, re.IGNORECASE)
+                            if match:
+                                extracted_version = match.group(1)
+                                print(f"Found version {extracted_version} on page {page} of {filename}")
+                                break
+                                
+                        # If not found in text, try filename
+                        if not extracted_version and filename != "Unknown Filename":
+                            version_match = re.search(r'v(\d+(?:\.\d+)?)', filename, re.IGNORECASE)
+                            if version_match:
+                                extracted_version = version_match.group(1)
+                                print(f"Extracted version {extracted_version} from filename: {filename}")
+                                
+                        # Store the version for this document
+                        if extracted_version and document_id != "unknown":
+                            document_versions[document_id] = extracted_version
+                            print(f"Stored version {extracted_version} for document {document_id}")
+                
+                # Always log ALL results in detail
                 print("\n==== RAW QUERY RESULTS ====")
                 try:
                     if isinstance(results, list) and len(results) > 0:
-                        for i, result in enumerate(results[:2]):  # Log first 2 results for brevity
+                        print(f"Total results: {len(results)}")
+                        for i, result in enumerate(results):  # Log all results
                             if isinstance(result, dict):
+                                text = result.get('text', 'No text')[:100] + "..." if len(result.get('text', '')) > 100 else result.get('text', 'No text')
                                 metadata = result.get('metadata', {})
-                                print(f"Result {i+1} metadata: {json.dumps(metadata, indent=2)}")
+                                print(f"\nResult {i+1}:")
+                                print(f"Text snippet: {text}")
+                                print(f"COMPLETE METADATA: {json.dumps(metadata, indent=2)}")
+                                
+                                # Special debug for version detection
+                                version_info = metadata.get('version', 'Not found')
+                                print(f"Version info: {version_info}")
+                                
+                                # Check if filename contains version info
+                                filename = metadata.get('filename', '')
+                                if 'v' in filename.lower():
+                                    print(f"Filename with possible version: {filename}")
+                                    version_match = re.search(r'v(\d+(?:\.\d+)?)', filename, re.IGNORECASE)
+                                    if version_match:
+                                        extracted_version = version_match.group(1)
+                                        print(f"Version from filename: {extracted_version}")
+                                
+                                # Check if text contains possible version information
+                                if 'v' in text.lower():
+                                    version_match = re.search(r'v(\d+(?:\.\d+)?)', text, re.IGNORECASE)
+                                    if version_match:
+                                        extracted_version = version_match.group(1)
+                                        print(f"Version from text: {extracted_version}")
                             else:
                                 print(f"Result {i+1} is not a dictionary: {type(result)}")
                     else:
@@ -203,6 +283,18 @@ class LightRAGDatabaseQuerier:
                         content_type = metadata.get("content_type", "TEXT")
                         version = metadata.get("version", "unknown")
                         segment_id = metadata.get("segment_id", "unknown")
+                        
+                        # First, check document_versions cache for this document_id
+                        if document_id != "unknown" and document_id in document_versions:
+                            version = document_versions[document_id]
+                            print(f"Using cached version {version} for document {document_id}, page {page}")
+                        
+                        # If version still unknown, try to extract from filename
+                        elif version == "unknown" and filename != "Unknown Filename":
+                            version_match = re.search(r'v(\d+(?:\.\d+)?)', filename, re.IGNORECASE)
+                            if version_match:
+                                version = version_match.group(1)
+                                print(f"Extracted version '{version}' from filename: {filename}")
                         
                         # Format the citation with comprehensive metadata
                         citation = f"Source: {filename}, Page: {page}"
@@ -323,7 +415,7 @@ class LightRAGDatabaseQuerier:
         
         # Extract the response
         if hasattr(result, 'data'):
-            response = result.data
+            response = result.output
         elif hasattr(result, 'output'):
             response = result.output
         elif hasattr(result, 'response'):
@@ -430,13 +522,13 @@ async def main():
     log_file = os.path.join(logs_dir, f"query_database_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log")
     logger = setup_logging(args.log_level, log_file)
     
-    # Create the querier
+    # Create the querier - force DEBUG logging for testing
     querier = LightRAGDatabaseQuerier(
         database_dir=args.database_dir,
         database_info_path=args.database_info,
         gemini_api_key=args.gemini_api_key,
         openai_api_key=args.openai_api_key,
-        log_level=getattr(logging, args.log_level)
+        log_level=logging.DEBUG
     )
     
     try:

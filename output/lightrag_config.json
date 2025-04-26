@@ -1,5 +1,5 @@
 {
-  "input_dir": "./test_pdfs",
+  "input_dir": "test_pdfs",
   "output_dir": "./output",
   "database_dir": "./lightrag_data",
   "log_level": "DEBUG",
