@@ -16,6 +16,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple, Union
+import re
 import dotenv
 
 from pydantic_ai import RunContext
@@ -122,12 +123,17 @@ class LightRAGDatabaseQuerier:
             You are an Entersoft ERP documentation assistant that answers questions using the knowledge base.
             
             When answering questions:
-            1. Always cite your sources with document titles and page numbers
-            2. If information comes from an image, mention that it's from an image and describe what the image shows
-            3. If the knowledge base doesn't contain the answer, clearly state that and provide your best general knowledge response
-            4. When multiple documents provide relevant information, synthesize the information and cite all sources
-            5. Be concise, accurate, and helpful
-            6. Format your responses in a clear, readable way with appropriate headings and bullet points when needed
+            1. Always cite your sources with complete metadata including:
+               - Document filename
+               - Page number
+               - Document version (when available)
+            2. Format each citation as: (Source: [filename], Page: [page], Version: [version])
+            3. If information comes from an image, mention that it's from an image and describe what the image shows
+            4. If the knowledge base doesn't contain the answer, clearly state that and provide your best general knowledge response
+            5. When multiple documents provide relevant information, synthesize the information and cite all sources
+            6. Be concise, accurate, and helpful
+            7. Format your responses in a clear, readable way with appropriate headings and bullet points when needed
+            8. ALWAYS include all available metadata for each piece of information in your response
             
             The knowledge base contains Entersoft ERP documentation that has been processed and stored in a LightRAG database.
             Use the retrieve tool to search for relevant information before answering.
@@ -160,24 +166,88 @@ class LightRAGDatabaseQuerier:
                 if isinstance(results, str):
                     return f"Retrieved content:\n{results}"
                 
+                # Log detailed raw results for debugging (after validating results)
+                print("\n==== RAW QUERY RESULTS ====")
+                try:
+                    if isinstance(results, list) and len(results) > 0:
+                        for i, result in enumerate(results[:2]):  # Log first 2 results for brevity
+                            if isinstance(result, dict):
+                                metadata = result.get('metadata', {})
+                                print(f"Result {i+1} metadata: {json.dumps(metadata, indent=2)}")
+                            else:
+                                print(f"Result {i+1} is not a dictionary: {type(result)}")
+                    else:
+                        print(f"Results is not a list or is empty: {type(results)}")
+                except Exception as e:
+                    print(f"Error printing raw results: {str(e)}")
+                print("============================\n")
+                
                 # Format the results with citations
                 formatted_results = []
                 for i, result in enumerate(results):
-                    # Extract metadata
-                    metadata = result.get("metadata", {})
-                    document_id = metadata.get("document_id", "unknown")
-                    title = metadata.get("title", "Unknown Document")
-                    page = metadata.get("page", "unknown")
-                    content_type = metadata.get("content_type", "TEXT")
-                    
-                    # Format the citation
-                    citation = f"Source: {title}, Page: {page}"
-                    if content_type == "IMAGE":
-                        citation += " (Image)"
-                    
-                    # Format the result
-                    formatted_result = f"Result {i+1}:\n{citation}\n{result['text']}\n"
-                    formatted_results.append(formatted_result)
+                    try:
+                        # Ensure result is a dictionary
+                        if not isinstance(result, dict):
+                            formatted_results.append(f"Result {i+1}: Invalid result format - {type(result)}")
+                            continue
+                            
+                        # Extract all available metadata
+                        metadata = result.get("metadata", {})
+                        if not isinstance(metadata, dict):
+                            metadata = {}
+                            
+                        document_id = metadata.get("document_id", "unknown")
+                        title = metadata.get("title", "Unknown Document")
+                        filename = metadata.get("filename", "Unknown Filename")
+                        page = metadata.get("page", "unknown")
+                        content_type = metadata.get("content_type", "TEXT")
+                        version = metadata.get("version", "unknown")
+                        segment_id = metadata.get("segment_id", "unknown")
+                        
+                        # Format the citation with comprehensive metadata
+                        citation = f"Source: {filename}, Page: {page}"
+                        
+                        # Add version if available
+                        if version != "unknown":
+                            citation += f", Version: {version}"
+                        
+                        # Add content type info
+                        if content_type == "IMAGE":
+                            citation += " (Image)"
+    
+                        # Add document title if different from filename
+                        if title != filename and title != "Unknown Document":
+                            citation += f"\nTitle: {title}"
+    
+                        # Check for knowledge graph source indicators
+                        if "[KG]" in result.get('text', ''):
+                            citation = f"Source: Knowledge Graph Entry"
+                            # Try to extract the document source from KG reference
+                            kg_match = re.search(r'\[KG\]\s+(.+?)(,|\)|\s+|$)', result.get('text', ''))
+                            if kg_match:
+                                citation += f" - {kg_match.group(1)}"
+                        
+                        # Format the result with detailed metadata
+                        text = result.get('text', 'No text available')
+                        formatted_result = f"Result {i+1}:\n{citation}\n\n{text}\n"
+                        
+                        # Include additional metadata details at the end of each result
+                        metadata_details = []
+                        if segment_id != "unknown":
+                            metadata_details.append(f"Segment ID: {segment_id}")
+                        
+                        # Add any other relevant metadata that might be available
+                        for key, value in metadata.items():
+                            if key not in ["document_id", "title", "filename", "page", "content_type", "version", "segment_id"] and value:
+                                if isinstance(value, str) and len(value) < 100:  # Only include reasonably sized string values
+                                    metadata_details.append(f"{key.replace('_', ' ').title()}: {value}")
+                        
+                        if metadata_details:
+                            formatted_result += "Additional Metadata:\n- " + "\n- ".join(metadata_details) + "\n"
+                        
+                        formatted_results.append(formatted_result)
+                    except Exception as e:
+                        formatted_results.append(f"Error formatting result {i+1}: {str(e)}")
                 
                 return "\n".join(formatted_results)
             
